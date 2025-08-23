@@ -42,3 +42,10 @@ main h1 {
 main h2 {
     color: white;
 }
+main button {
+    background-color: FF0000;
+    color: white;
+    border-radius: 4vw;
+    box-shadow: whitesmoke;
+
+}

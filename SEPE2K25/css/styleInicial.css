@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Riot&family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+
+a{
+    text-decoration: none; /* remove o sublinhado dos links */
+    color: white; /* altera a cor de todos os links das páginas */
+}
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    background-color: black;
+}
+
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2vw;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin: 0 0 0 1.5vw;
+}
+.logo-text {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 1.8vw;
+    padding: 0 0 0 0.5vw;
+}
+.logo-brain {
+    width: 5vw;
+    height: 5vw;
+    padding: 0.4vw 0 0 0;
+    transform: rotate(18.39deg);
+}
+.navegacao-site {
+    color: white;
+    margin-top: 2vw;
+}
+.navegacao-site ul li a {
+    color: white;
+}
+.navegacao-site ul {
+    font-family: "Saira Stencil One", sans-serif;
+    display: flex;
+    gap: 7px;
+    font-size: 1.3vw;
+}
+.navegacao-site span {
+    text-decoration: underline;
+    text-decoration-color: #F24B4B;
+}
+
+/* main-banner */
+.banner-inicio {
+    color: white;
+    text-align: center;
+}
+.texto-inicio-banner {
+    margin: 13vw 28vw 20vw 0;
+}
+.banner-inicio h1 {
+    font-family: "Saira Stencil One", sans-serif;
+    color: #ED1616;
+    font-size: 7vw;
+}
+.banner-inicio h2 {
+    font-size: 4vw;
+}

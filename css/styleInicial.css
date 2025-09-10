@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Riot&family=Saira+Stencil+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 
 a{
     text-decoration: none; /* remove o sublinhado dos links */
@@ -18,6 +21,7 @@ header {
     display: flex;
     justify-content: space-between;
     margin: 0 2vw;
+    background-color: black;
 }
 .logo-container {
     display: flex;
@@ -146,4 +150,81 @@ header {
     padding: 5px 45px 5px 45px;
     border-radius: 25px;
     font-size: 1.2rem;
+}
+
+/* Melhores treinadores */
+.melhoresTreinadores {
+    background-color: #2C2C2C;
+}
+.melhoresTreinadores h2 {
+    font-family: "Alfa Slab One", serif;
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+.melhoresTreinadores div {
+    margin: 10vw 5vw;
+}
+.melhoresTreinadores h3 {
+    font-family: "Archivo Black", sans-serif;
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+.melhoresTreinadores h2 span {
+    color: #ED1616;
+}
+.melhoresTreinadores p {
+    font-family: "Noto Serif", serif;
+    margin-bottom: 30px;
+}
+.melhoresTreinadores ul {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15vw 0 15vw;
+}
+.melhoresTreinadores img {
+    width: 200px;
+}
+.melhoresTreinadores ul li p {
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+
+/* footer */
+.logo-container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.instagram-footer {
+    text-align: center;
+}
+.instagram-footer h4 {
+    font-size: 2rem;
+}
+.instagram-footer p {
+    margin-top: 15px;
+    font-size: 3rem;
+}
+.contatos-footer {
+    font-family: "ABeeZee", sans-serif;
+    text-align: center;
+}
+.contatos-footer p {
+    margin-bottom: 10px;
+}
+.contatos-footer p a {
+    text-decoration: underline;
+}
+.copyright-footer {
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background-color: #F24B4B;
+}
+.linhas-footer {
+    margin: 1vw 0 1vw 0;
+    display: flex;
+    justify-content: center;
+}
+.linhas-footer img {
+    width: 90vw;
 }

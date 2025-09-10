@@ -60,6 +60,18 @@ header {
     text-decoration: underline;
     text-decoration-color: #F24B4B;
 }
+.navegacao-site nav ul li ul li {
+      position: relative;
+      margin: 15px 0 15px 0;
+      opacity: 0.7;
+}
+.navegacao-site nav ul li ul {
+      display: none;
+}
+.navegacao-site nav ul li:hover ul {
+  display: block;
+  position: absolute;
+}
 
 /* footer */
 .logo-container-footer {
@@ -136,4 +148,92 @@ header {
 }
 .linhas img {
     width: 90vw;
+}
+
+/* sobre nós textos */
+.sobreNosTextos h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sobreNosTextos h3 span {
+    color: #ED1616;
+}
+.sobreNosTextosP1 {
+    margin-bottom: 30px;
+}
+.sobreNosTextosP1 p {
+    background-color: #2C2C2C;
+    margin-right: 10vw;
+    padding: 2vw 2vw 2vw 2vw;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 1.1rem;
+    line-height: 1vw;
+    font-family: "Noto Serif", serif;
+}
+.sobreNosTextosP2 p {
+    background-color: #2C2C2C;
+    margin-left: 10vw;
+    padding: 2vw 2vw 2vw 2vw;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    font-size: 1.1rem;
+    line-height: 1vw;
+    font-family: "Noto Serif", serif;
+}
+.sobreNosTextosP2 {
+    margin-bottom: 3vw;
+}
+.textosSaudeMental {
+    background-color: #2C2C2C   ;
+    margin-left: 11vw;
+    padding: 2vw 2vw 2vw 2vw;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}
+
+/* Sobre nós */
+.sobreNos {
+    margin: 0 30px 0 30px;
+}
+.sobreNos h2{
+    font-size: 3rem;
+}
+.sobreNos h2 span {
+    color: #ED1616;
+}
+.imagensPessoas {
+    font-family: "Noto Serif", serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 90px;
+}
+.imagensPessoas {
+    display: flex;
+    justify-content: center;
+}
+.imagensPessoas img {
+    width: 200px;
+}
+
+.sobreNosSaibaMais {
+    margin-bottom: 2vw;
+}
+.sobreNosSaibaMais div img {
+    width: 190vh;
+    height: 60vh;
+}
+.sobreNosSaibaMais div {
+    margin: 15px 0 20px 0;
+    display: flex;
+    justify-content: center;
+}
+.sobreNosSaibaMais p a {
+    margin-left: 5.2vw;
+    background-color: #ED1616;
+    padding: 10px 60px 10px 60px;
+    border-radius: 25px;
+    font-size: 1.2rem;
 }

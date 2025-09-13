@@ -168,8 +168,8 @@ header {
     padding: 2vw 2vw 2vw 2vw;
     border-top-right-radius: 30px;
     border-bottom-right-radius: 30px;
-    font-size: 1.1rem;
-    line-height: 1vw;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
     font-family: "Noto Serif", serif;
 }
 .sobreNosTextosP2 p {
@@ -179,7 +179,7 @@ header {
     border-top-left-radius: 30px;
     border-bottom-left-radius: 30px;
     font-size: 1.1rem;
-    line-height: 1vw;
+    line-height: 1.6rem;
     font-family: "Noto Serif", serif;
 }
 .sobreNosTextosP2 {
@@ -217,6 +217,10 @@ header {
 .imagensPessoas img {
     width: 200px;
 }
+.imagensPessoas p {
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+}
 
 .sobreNosSaibaMais {
     margin-bottom: 2vw;
@@ -235,5 +239,6 @@ header {
     background-color: #ED1616;
     padding: 10px 60px 10px 60px;
     border-radius: 25px;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
 }
+

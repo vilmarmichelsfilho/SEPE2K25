@@ -17,6 +17,7 @@ body {
 }
 
 /* header */
+/* header */
 header {
     display: flex;
     justify-content: space-between;
@@ -93,7 +94,7 @@ header {
     color: white;
     text-align: center;
     background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0,0,0,0)), 
-                      url('../images/bannerPush.png');
+                      url('../images/bannerInicio.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;

@@ -17,6 +17,7 @@ body {
 }
 
 /* header */
+/* header */
 header {
     display: flex;
     justify-content: space-between;
@@ -49,6 +50,16 @@ header {
 }
 .navegacao-site ul li a {
     color: white;
+    transition: color 0.3s ease;
+}
+.navegacao-site ul li {
+    transition: transform 0.3s ease;
+}
+.navegacao-site ul li a:hover {
+    color: #F24B4B;
+}
+.navegacao-site ul li:hover {
+    transform: scale(1.1);
 }
 .navegacao-site ul {
     font-family: "Saira Stencil One", sans-serif;
@@ -64,6 +75,7 @@ header {
       position: relative;
       margin: 15px 0 15px 0;
       opacity: 0.7;
+      transition: opacity 0.3s ease, transform 0.3s ease;
 }
 .navegacao-site nav ul li ul {
       display: none;
@@ -71,6 +83,10 @@ header {
 .navegacao-site nav ul li:hover ul {
   display: block;
   position: absolute;
+}
+.navegacao-site nav ul li ul li:hover {
+    opacity: 1;
+    transform: scale(1.1);
 }
 
 /* footer */

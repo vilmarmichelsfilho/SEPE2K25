@@ -5,15 +5,29 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 
-a{
+ a{
     text-decoration: none; /* remove o sublinhado dos links */
     color: white; /* altera a cor de todos os links das páginas */
+}
+
+p {
+    font-family: "ABeeZee", sans-serif;
 }
 
 body {
     font-family: "Bebas Neue", sans-serif;
     background-color: black;
     color: white;
+}
+
+/* linhas */
+.linhas {
+    margin: 4vw 0 4vw 0;
+    display: flex;
+    justify-content: center;
+}
+.linhas img {
+    width: 90vw;
 }
 
 /* header */
@@ -126,7 +140,7 @@ header {
 .texto-inicio-banner {
     position: absolute;
     top: 40%;
-    left: 22%;
+    left: 24%;
     transform: translate(-50%, -50%);
 }
 .banner-inicio h1 {
@@ -140,105 +154,31 @@ header {
     margin-left: 15vw;
 }
 
-/* linhas */
-.linhas {
-    margin: 4vw 0 4vw 0;
-    display: flex;
-    justify-content: center;
+/* textos */
+.saudeMentalTextos p {
+    margin: 0 10vw;
+    font-size: 1.3rem;
+    line-height: 1.5rem;
 }
-.linhas img {
-    width: 90vw;
-}
-
-/* sobre nós textos */
-.sobreNosTextos h3 {
-    font-size: 3rem;
+.saudeMentalTextos2 h2 {
+    font-size: 2.5rem;
+    margin: 0 0 15px 0;
     text-align: center;
-    margin-bottom: 10px;
 }
-.sobreNosTextos h3 span {
+.saudeMentalTextos2 h2 span {
     color: #ED1616;
 }
-.sobreNosTextosP1 {
-    margin-bottom: 30px;
+.saudeMentalTextos2 {
+    margin: 0 7vw;
 }
-.sobreNosTextosP1 p {
-    background-color: #2C2C2C;
-    margin-right: 10vw;
-    padding: 2vw 2vw 2vw 2vw;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
-    font-family: "Noto Serif", serif;
+.saudeMentalTextos2 p {
+    max-width: 30%;
+    line-height: 1.5rem;
 }
-.sobreNosTextosP2 p {
-    background-color: #2C2C2C;
-    margin-left: 10vw;
-    padding: 2vw 2vw 2vw 2vw;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    font-size: 1.1rem;
-    line-height: 1.6rem;
-    font-family: "Noto Serif", serif;
-}
-.sobreNosTextosP2 {
-    margin-bottom: 3vw;
-}
-.textosSaudeMental {
-    background-color: #2C2C2C   ;
-    margin-left: 11vw;
-    padding: 2vw 2vw 2vw 2vw;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-}
-
-/* Sobre nós */
-.sobreNos {
-    margin: 0 30px 0 30px;
-}
-.sobreNos h2{
-    font-size: 3rem;
-}
-.sobreNos h2 span {
-    color: #ED1616;
-}
-.imagensPessoas {
-    font-family: "Noto Serif", serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 90px;
-}
-.imagensPessoas {
+.saudeMentalTextos2 div {
     display: flex;
     justify-content: center;
 }
-.imagensPessoas img {
-    width: 200px;
+.saudeMentalTextos2 iframe {
+    border-radius: 15px;
 }
-.imagensPessoas p {
-    font-size: 1.2rem;
-    line-height: 1.6rem;
-}
-
-.sobreNosSaibaMais {
-    margin-bottom: 2vw;
-}
-.sobreNosSaibaMais div img {
-    width: 180vh;
-    height: 50vh;
-}
-.sobreNosSaibaMais div {
-    margin: 15px 0 20px 0;
-    display: flex;
-    justify-content: center;
-}
-.sobreNosSaibaMais p a {
-    margin-left: 5.2vw;
-    background-color: #ED1616;
-    padding: 10px 60px 10px 60px;
-    border-radius: 25px;
-    font-size: 1.4rem;
-}
-

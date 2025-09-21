@@ -1,0 +1,122 @@
+<script>
+/*A ideia da funcionalidade é fazer com que apareça a divisão de treino ideal para cada pessoa de acordo com suas reposta ao formulario
+ além disso indicar o numero de séries para cada exercício tmb de acordo com as resposta do pessoal
+ divisões de treino Upper Lower 2x / ABC upper Lower / ABC Upper / ABC Lower / Fullbody 3x / Upper lower 2x + lower
+ Variações de séries sendo 2 séries para iniciantes, 3 séries para intermédiario e 4 séries para avançado*/
+
+//Entrada
+const pergunta1 = Number(prompt(`Informe quantos dias na semana você pode treinar:`));
+const pergunta2 = prompt(`Informe se você é iniciante, intermédiario ou avançado`);
+//processamento
+if(pergunta1 >=1 && pergunta1 <=3){
+if (pergunta2 === "iniciante"){
+document.write(`Sua divisão de treino é a Fullbody:<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 2 séries por exercício`)    
+}
+else if (pergunta2 === "intermédiario"){
+document.write(`Sua divisão de treino é a Fullbody:<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 3 séries por exercício`)    
+}
+else {
+document.write(`Sua divisão de treino é a Fullbody:<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 4 séries por exercício`)    
+}
+}
+// Divisões possiveis Upper Lower 2x, ABC Upper e ABC lower
+else if(pergunta1 === 4) {
+const pergunta3 = prompt(`Informe se seu foco e em inferiores, superiores ou ambos`)
+if(pergunta3 === "superiores"){
+//Aqui dividimos o número de séries se ele é iniciante irtermédiario ou avançado, na divisão ABC Upper
+    if (pergunta2 === "iniciante"){
+document.write(`Sua divisão de treino é a Push, Pull, Lag, Upper:<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 2 séries por exercício`)    
+}
+else if (pergunta2 === "intermédiario"){
+document.write(`Sua divisão de treino é a Push, Pull, Lag, Upper:<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 3 séries por exercício`)    
+}
+else {
+document.write(`Sua divisão de treino é a Push, Pull, Lag, Upper:<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 4 séries por exercício`)    
+}
+}
+else if(pergunta3 === "infeiores"){
+//Aqui dividimos o número de séries se ele é iniciante irtermédiario ou avançado, na divisão ABC Lower
+    if (pergunta2 === "iniciante"){
+document.write(`Sua divisão de treino é a Push, Pull, Lag, Lower:<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 2 séries por exercício`)    
+}
+else if (pergunta2 === "intermédiario"){
+document.write(`Sua divisão de treino é a Push, Pull, Lag, Lower:<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 3 séries por exercício`)    
+}
+else {
+document.write(`Sua divisão de treino é a Push, Pull, Lag, Lower:<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 4 séries por exercício`)    
+}
+}
+else{
+//Aqui a unica divisão de treino restante de 4 dias e Upper Lower 2x então usamos else, e usaremos mais uma estrura de decisão para vereficar se ele é iniciante, intermédiario ou avançado
+    if (pergunta2 === "iniciante"){
+document.write(`Sua divisão de treino é a Upper Lower 2x:<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 2 séries por exercício`)    
+}
+else if (pergunta2 === "intermédiario"){
+document.write(`Sua divisão de treino é a Upper Lower 2x:<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 3 séries por exercício`)    
+}
+else {
+document.write(`Sua divisão de treino é a Upper Lower 2x<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 4 séries por exercício`)    
+}
+}
+}
+else {
+const pergunta3 = prompt(`Informe se seu foco e em inferiores, superiores ou ambos`)
+if(pergunta3 === "superiores"){
+//Aqui dividimos o número de séries se ele é iniciante irtermédiario ou avançado, na divisão Upper lower 2X + Upper
+    if (pergunta2 === "iniciante"){
+document.write(`Sua divisão de treino é a Upper lower 2X + Upper:<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 2 séries por exercício`)    
+}
+else if (pergunta2 === "intermédiario"){
+document.write(`Sua divisão de treino é a Upper lower 2X + Upper<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 3 séries por exercício`)    
+}
+else {
+document.write(`Sua divisão de treino é a Upper lower 2X + Upperbr>
+Você deve realizar este treino em todos os dias que conseguir e realizar 4 séries por exercício`)    
+}
+}
+else if(pergunta3 === "infeiores"){
+//Aqui dividimos o número de séries se ele é iniciante irtermédiario ou avançado, na divisão Upper Lower 2X + Lower
+    if (pergunta2 === "iniciante"){
+document.write(`Sua divisão de treino é a Upper Lower 2X + Lower:<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 2 séries por exercício`)    
+}
+else if (pergunta2 === "intermédiario"){
+document.write(`Sua divisão de treino é a Upper Lower 2X + Lower:<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 3 séries por exercício`)    
+}
+else {
+document.write(`Sua divisão de treino é a Upper Lower 2X + Lower:<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 4 séries por exercício`)    
+}
+}
+else{
+//Aqui a unica divisão de treino restante de 5 dias é a ABC Upper Lower então usamos else, e usaremos mais uma estrura de decisão para vereficar se ele é iniciante, intermédiario ou avançado
+    if (pergunta2 === "iniciante"){
+document.write(`Sua divisão de treino é a Push, Pull, Lags, Upper, Lower<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 2 séries por exercício`)    
+}
+else if (pergunta2 === "intermédiario"){
+document.write(`Sua divisão de treino é a Push, Pull, Lags, Upper, Lower:<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 3 séries por exercício`)    
+}
+else {
+document.write(`Sua divisão de treino é a Push, Pull, Lags, Upper, Lower<br>
+Você deve realizar este treino em todos os dias que conseguir e realizar 4 séries por exercício`)    
+}
+}
+}
+</script>

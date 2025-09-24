@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Riot&family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+
+a{
+    text-decoration: none; /* remove o sublinhado dos links */
+    color: white; /* altera a cor de todos os links das páginas */
+}
+
+body {
+    font-family: "Bebas Neue", sans-serif;
+    background-color: black;
+    color: white;
+}
+
+/* header */
+/* header */
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2vw;
+    background-color: black;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin: 0 0 0 1.5vw;
+}
+.logo-text {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 1.8vw;
+    padding: 0 0 0 0.5vw;
+}
+.logo-brain {
+    width: 5vw;
+    height: 5vw;
+    padding: 0.4vw 0 0 0;
+    transform: rotate(18.39deg);
+}
+.navegacao-site {
+    color: white;
+    margin-top: 2vw;
+}
+.navegacao-site ul li a {
+    color: white;
+    transition: color 0.3s ease;
+}
+.navegacao-site ul li {
+    transition: transform 0.3s ease;
+}
+.navegacao-site ul li a:hover {
+    color: #F24B4B;
+}
+.navegacao-site ul li:hover {
+    transform: scale(1.1);
+}
+.navegacao-site ul {
+    font-family: "Saira Stencil One", sans-serif;
+    display: flex;
+    gap: 18px;
+    font-size: 1.3vw;
+}
+.navegacao-site span {
+    text-decoration: underline;
+    text-decoration-color: #F24B4B;
+}
+.navegacao-site nav ul li ul li {
+      position: relative;
+      margin: 15px 0 15px 0;
+      opacity: 0.7;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.navegacao-site nav ul li ul {
+      display: none;
+}
+.navegacao-site nav ul li:hover ul {
+  display: block;
+  position: absolute;
+}
+.navegacao-site nav ul li ul li:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+/* main-banner */
+.banner-inicio {
+    color: white;
+    text-align: center;
+    background-image: url(../images/bannerInicio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding-bottom: 45vw;
+}
+.texto-inicio-banner {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+.banner-inicio h1 {
+    font-family: "Saira Stencil One", sans-serif;
+    color: #ED1616;
+    font-size: 7vw;
+}
+.banner-inicio h2 {
+    font-family: "Saira Stencil One", sans-serif;
+    font-size: 7vw;
+    margin-left: 10vw;
+}
+.redesSociaisBanner {
+    padding: 5px 450px 5px 100px;
+    background: linear-gradient(to right, #ED1616, #ED1616, white);
+    position: absolute;
+    top: 100vh;
+    font-size: 1.8vw;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+}
+.redesSociaisBanner a {
+    margin: 0 8px 0 8px;
+}
+
+/* Equipe */
+.sobreProjetoIntegrante h2 {
+    font-size: 4rem;
+    margin-left: 15vw;
+    margin-bottom: 2vw;
+}
+.sobreProjetoIntegrante img {
+    width: 200px;
+}
+.sobreProjetoIntegrante ul {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    margin-bottom: 35px;
+}
+.sobreProjetoIntegrante ul li h3 {
+    text-align: center;
+    font-size: 1.3rem;
+    margin-top: 7px;
+}
+.sobreProjetoIntegrante ul li p {
+    text-align: center;
+    margin-top: 3px;
+    opacity: 0.5;
+}
+
+/* linhas */
+.linhas {
+    margin: 4vw 0 4vw 0;
+    display: flex;
+    justify-content: center;
+}
+.linhas img {
+    width: 90vw;
+}
+
+/* sobre o projeto */
+.layoutTexto {
+    margin: 0 5vw;
+}
+.layoutTexto h2 {
+    font-size: 3rem;
+    color: #ED1616;
+}
+.layoutTexto div {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25vw;
+    align-items: center;
+}
+.layoutTexto div img {
+    width: 350px;
+    background: #F24B4B;
+    padding: 10px 10px;
+    border-radius: 20px;
+}
+.layoutTexto div p {
+    font-size: 1.3em;
+    line-height: 2rem;
+    background: #F24B4B;
+    padding: 10px 15px;
+    border-radius: 10px 0 0 10px;
+}
+
+/* cores */
+.coresUsadas {
+    margin: 5vw 5vw;
+}
+.coresUsadas h2 {
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+.coresUsadas p {
+    font-size: 1.3rem;
+}
+.coresUsadas h2 span {
+    color: #ED1616;
+}
+.coresUsadas ul {
+    display: flex;
+    justify-content: center;
+    gap: 3vw;
+    margin-top: 30px;
+}
+.coresUsadas ul li img {
+    width: 200px;
+}
+.coresUsadas ul li h3 {
+    text-align: center;
+    margin: 8px 0 0 0;
+    font-size: 1.8rem;
+}

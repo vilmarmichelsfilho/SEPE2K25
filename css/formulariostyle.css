@@ -1,0 +1,258 @@
+ @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Protest+Riot&family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Saira+Stencil+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+ /*Geral*/
+  a{
+    text-decoration: none; /* remove o sublinhado dos links */
+    color: white; /* altera a cor de todos os links das páginas */
+}
+ body {
+  font-family: "Bebas Neue", sans-serif;
+      background-color: black;
+ }
+ /*Header*/
+header {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2vw;
+    background-color: black;
+}
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+.logo {
+    margin: 0 0 0 1.5vw;
+}
+.logo-text {
+    color: white;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: 1.8vw;
+    padding: 0 0 0 0.5vw;
+}
+.logo-brain {
+    width: 5vw;
+    height: 5vw;
+    padding: 0.4vw 0 0 0;
+    transform: rotate(18.39deg);
+}
+.navegacao-site {
+    color: white;
+    margin-top: 2vw;
+}
+.navegacao-site ul li a {
+    color: white;
+    transition: color 0.3s ease;
+}
+.navegacao-site ul li {
+    transition: transform 0.3s ease;
+}
+.navegacao-site ul li a:hover {
+    color: #F24B4B;
+}
+.navegacao-site ul li:hover {
+    transform: scale(1.1);
+}
+.navegacao-site ul {
+    font-family: "Saira Stencil One", sans-serif;
+    display: flex;
+    gap: 10px;
+    font-size: 1.3vw;
+}
+.navegacao-site span {
+    text-decoration: underline;
+    text-decoration-color: #F24B4B;
+}
+.navegacao-site nav ul li ul li {
+      position: relative;
+      margin: 15px 0 15px 0;
+      opacity: 0.7;
+      transition: opacity 0.3s ease, transform 0.3s ease;
+}
+.navegacao-site nav ul li ul {
+      display: none;
+}
+.navegacao-site nav ul li:hover ul {
+  display: block;
+  position: absolute;
+}
+.navegacao-site nav ul li ul li:hover {
+    opacity: 1;
+    transform: scale(1.1);
+}
+
+ /*formulario*/  
+main {
+      font-family: Arial, sans-serif;
+      background: black;
+      color: #fff;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+    .container {
+      background: #fdfdfd;
+      color: #000;
+      padding: 30px;
+      border-radius: 12px;
+      width: 450px;
+      box-shadow: 0 0 15px rgba(0,0,0,0.5);
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #c00;
+      font-family: 'Impact', sans-serif;
+    }
+
+    .pergunta {
+      margin-bottom: 20px;
+    }
+
+    .pergunta p {
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+
+    .opcoes {
+      display: flex;
+      gap: 15px;
+      flex-wrap: wrap;
+    }
+
+    label {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+
+    input[type="radio"] {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 18px;
+      height: 18px;
+      border: 2px solid #000;
+      border-radius: 50%;
+      display: grid;
+      place-content: center;
+    }
+
+    input[type="radio"]::before {
+      content: "";
+      width: 10px;
+      height: 10px;
+      border-radius: 50%;
+      transform: scale(0);
+      transition: 0.2s ease-in-out;
+      background-color: red;
+    }
+
+    input[type="radio"]:checked::before {
+      transform: scale(1);
+    }
+
+    button {
+      display: block;
+      margin: 20px auto 0;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 20px;
+      background: #c00;
+      color: #fff;
+      font-weight: bold;
+      cursor: pointer;
+    }
+
+    #resultado {
+      margin-top: 20px;
+      font-weight: bold;
+      text-align: center;
+      color: #111;
+    }
+    /*footer*/
+    footer{
+ color: white;
+    }
+    .logo-container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.instagram-footer {
+    text-align: center;
+}
+.instagram-footer h4 {
+    font-size: 2rem;
+}
+.instagram-footer p {
+    margin-top: 15px;
+    font-size: 3rem;
+}
+.contatos-footer {
+    font-family: "ABeeZee", sans-serif;
+    text-align: center;
+}
+.contatos-footer p {
+    margin-bottom: 10px;
+}
+.contatos-footer p a {
+    text-decoration: underline;
+}
+.copyright-footer {
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background-color: #F24B4B;
+}
+.linhas-footer {
+    margin: 1vw 0 1vw 0;
+    display: flex;
+    justify-content: center;
+}
+.linhas-footer img {
+    width: 90vw;
+}
+
+/* sobre nós textos */
+.sobreNosTextos h3 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.sobreNosTextos h3 span {
+    color: #ED1616;
+}
+.sobreNosTextosP2 {
+    margin-bottom: 3vw;
+}
+.sobreNosTextosP2 h3 {
+    font-size: 3rem;
+    text-align: center;
+}
+.sobreNosTextosP2 h3 span {
+    color: #ED1616;
+}
+.sobreNosTextosP2 p {
+    background-color: #2C2C2C;
+    margin-right: 10vw;
+    padding: 1vw 0 1vw 0;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    font-size: 1.1rem;
+    line-height: 1.3rem;
+    font-family: "Noto Serif", serif;
+}
+.textosSaudeMental {
+    background-color: #2C2C2C   ;
+    margin-left: 11vw;
+    padding: 2vw 0 2vw 2vw;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+}

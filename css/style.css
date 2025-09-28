@@ -87,7 +87,7 @@ body {
     color: white;
     writing-mode: vertical-lr;
     transform: rotate(180deg);
-    font-size: 1.2rem;
+    font-size: 2rem;
 }
 .redesSociais p {
     display: flex;

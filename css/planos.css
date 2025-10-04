@@ -15,8 +15,6 @@ body {
     background-color: black;
     color: white;
 }
-
-/* header */
 /* header */
 header {
     display: flex;
@@ -89,7 +87,24 @@ header {
     transform: scale(1.1);
 }
 /*Section planos*/
-
+section.Planos {
+    align-items: center;
+}
+section.Planos ul {
+    display: flex;
+      justify-content: space-around;
+}
+section.Planos ul li{
+ background-color: #141414;
+ align-items: center;
+ text-align: center;
+}
+section.Planos ul li button{
+border-radius: 25px;
+background-color: #ED1616;
+border: 1px solid white;
+padding: 1vw 10vw;
+}
 /* footer */
 .logo-container-footer {
     display: flex;

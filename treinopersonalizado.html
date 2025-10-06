@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Formulário de Treino</title>
+ <link rel="stylesheet" href="css/reset.css">
+ <link rel="stylesheet" href="css/treinopersonalizado.css">
+   <script src="https://kit.fontawesome.com/63d78986c8.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+           <section class="logo-container">
+            <img src="images/logo.png" alt="Logo Academia" class="logo">
+            <span class="logo-text">VARZEA GYM</span>
+            <img src="images/brain.png" alt="Brain" class="logo-brain">
+        </section>
+        <section class="navegacao-site">
+            <nav>
+                <ul>
+                    <li>
+                  <a href="inicio.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="saudeMental.html">Saúde Mental</a>
+                    </li>
+                    <li>
+                        <a href="treinos.html">Treinos</a>
+                        <ul>
+                            <li>
+                                <a href="treinos/pull.html">Pull</a>
+                            </li>
+                            <li>
+                                <a href="treinos/push.html">Push</a>
+                            </li>
+                            <li>
+                                <a href="treinos/legday.html">Leg Day</a>
+                            </li>
+                            <li>
+                                <a href="treinos/superiores.html">Superiores</a>
+                            </li>
+                            <li>
+                                <a href="treinos/inferiores.html">Inferiores</a>
+                            </li>
+                            <li>
+                                <a href="treinos/fullbody.html">Fullbody</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <a href="Planos.html">Planos</a>
+                    </li>
+                    <li>
+                       <span><a href="treinopersonalizado.html">Treino Personalizado</a></span> 
+                    </li>
+                    <li>
+                        <a href="sobreNos.html">Sobre Nós</a>
+                        <ul>
+                            <li>
+                                <a href="sobreNos.html">Sobre Nós</a>
+                            </li>
+                            <li>
+                                <a href="sobreProjeto.html">Sobre o Projeto</a>
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+            </nav>
+        </section>
+    </header>
+    <main>
+<div class="container">
+    <h2>Varzea GYM</h2>
+
+    <form id="formTreino">
+      <!-- Pergunta 1 -->
+      <div class="pergunta">
+        <p>Pergunta 01<br>Quantos dias da semana você pode treinar?</p>
+        <div class="opcoes">
+          <label><input type="radio" name="dias" value="1-3"> 1-3 Dias</label>
+          <label><input type="radio" name="dias" value="3-4"> 3-4 Dias</label>
+          <label><input type="radio" name="dias" value="4-5"> 4-5 Dias</label>
+          <label><input type="radio" name="dias" value="5-7"> 5-7 Dias</label>
+        </div>
+      </div>
+
+      <!-- Pergunta 2 -->
+      <div class="pergunta">
+        <p>Pergunta 02<br>Você se considera iniciante, intermediário ou avançado?</p>
+        <div class="opcoes">
+          <label><input type="radio" name="nivel" value="iniciante"> Iniciante</label>
+          <label><input type="radio" name="nivel" value="intermediario"> Intermediário</label>
+          <label><input type="radio" name="nivel" value="avancado"> Avançado</label>
+        </div>
+      </div>
+
+      <!-- Pergunta 3 -->
+      <div class="pergunta">
+        <p>Pergunta 03<br>Foco em membros inferiores ou superiores</p>
+        <div class="opcoes">
+          <label><input type="radio" name="foco" value="inferiores"> Inferior</label>
+          <label><input type="radio" name="foco" value="superiores"> Superior</label>
+          <label><input type="radio" name="foco" value="ambos"> Ambos</label>
+        </div>
+      </div>
+
+      <button type="submit">Gerar Divisão</button>
+    </form>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script>
+    document.getElementById("formTreino").addEventListener("submit", function(e){
+      e.preventDefault();
+
+      const diasSelecionado = document.querySelector('input[name="dias"]:checked');
+      const nivelSelecionado = document.querySelector('input[name="nivel"]:checked');
+      const focoSelecionado = document.querySelector('input[name="foco"]:checked');
+
+      if (!diasSelecionado || !nivelSelecionado || !focoSelecionado) {
+        alert("Por favor, responda todas as perguntas.");
+        return;
+      }
+
+      let dias = diasSelecionado.value;
+      let nivel = nivelSelecionado.value;
+      let foco = focoSelecionado.value;
+      let series = (nivel === "iniciante") ? 2 : (nivel === "intermediario") ? 3 : 4;
+      let resultado = "";
+
+      // Decisão conforme a lógica
+      if (dias === "1-3") {
+        resultado = `Sua divisão de treino é Fullbody.<br>Faça este treino em todos os dias da semana que conseguir e realize <b>${series}</b> séries por exercício.`;
+      }
+      else if (dias === "3-4" || dias === "4-5") {
+        if (foco === "superiores") {
+          resultado = `Sua divisão de treino é Push, Pull, Legs, Upper.<br>Realize <b>${series}</b> séries por exercício.`;
+        } else if (foco === "inferiores") {
+          resultado = `Sua divisão de treino é Push, Pull, Legs, Lower.<br>Realize <b>${series}</b> séries por exercício.`;
+        } else {
+          resultado = `Sua divisão de treino é Upper/Lower 2x.<br>Realize <b>${series}</b> séries por exercício.`;
+        }
+      }
+      else if (dias === "5-7") {
+        if (foco === "superiores") {
+          resultado = `Sua divisão de treino é Upper/Lower 2x + Upper.<br>Realize <b>${series}</b> séries por exercício.`;
+        } else if (foco === "inferiores") {
+          resultado = `Sua divisão de treino é Upper/Lower 2x + Lower.<br>Realize <b>${series}</b> séries por exercício.`;
+        } else {
+          resultado = `Sua divisão de treino é Push, Pull, Legs, Upper, Lower.<br>Realize <b>${series}</b> séries por exercício.`;
+        }
+      }
+
+      document.getElementById("resultado").innerHTML = resultado;
+    });
+  </script>
+    </main>
+   <footer>
+         <div class="linhas-footer">
+            <img src="images/linha.png" alt="Linha">
+        </div>
+        <section class="logo-container-footer">
+            <img src="images/logo.png" alt="Logo Academia" class="logo">
+            <span class="logo-text">VARZEA GYM</span>
+            <img src="images/brain.png" alt="Brain" class="logo-brain">
+        </section>
+        <div class="linhas-footer">
+            <img src="images/linha.png" alt="Linha">
+        </div>
+        <section class="instagram-footer">
+            <h4>
+                Siga VarzeaGym no instagram
+            </h4>
+            <p>
+                <a href="https://www.instagram.com/varzea._gym?igsh=bDJqd3NhbzU3cGk5"><i class="fa-brands fa-instagram"></i></a>
+            </p>
+        </section>
+        <div class="linhas-footer">
+            <img src="images/linha.png" alt="Linha">
+        </div>
+        <section class="contatos-footer">
+            <p>
+                <a href="https://www.bing.com/maps?mepi=127~~Unknown~Address_Link&ty=18&q=Instituto+Federal+Catarinense&ss=ypid.YN7993x16148370535782589957&ppois=-26.394990921020508_-48.738319396972656_Instituto+Federal+Catarinense_YN7993x16148370535782589957~&cp=-26.394983~-48.738313&v=2&sV=1&FORM=MPSRPL&lvl=16.0">Rodovia Br 280, Araquari, Sc, 89245-00</a>
+                - Araquari SC
+            </p>
+            <p>
+                gymvarzea@gmail.com
+            </p>
+            <p>
+                Varzea Gym LTDA
+            </p>
+            <p>
+                +55 47 9788-5397
+            </p>
+        </section>
+        <section class="copyright-footer">
+            <p>
+                Copyright © 2025. Varzea Gym. Todos os direitos reservados
+            </p>
+        </section>
+    </footer>
+</body>
+</html>

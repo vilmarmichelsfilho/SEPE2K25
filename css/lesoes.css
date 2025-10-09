@@ -12,39 +12,8 @@
  body {
   font-family: "Bebas Neue", sans-serif;
       background-color: black;
+      color: white;
  }
- main p {
-    color:white;
-    font-size: 24px;
-    font-family: Arial, Helvetica, sans-serif;
- }
-
- main ul {
-    margin: 0 0 50px 0;
-    padding-left: 48px;
- }
-
- main section p{
-    line-height: 3.5rem;
- }
-
-
- main {
-    padding: 0 6vw 0 6vw;
- }
-  main h2{
-    color: #ED1616;
-    font-size: 3.5rem;
-    font-weight: bold;
-    margin: 0 0 2vw 0;
-  }
-  main  ul{
-    list-style-type: disc;
-  }
-  main ul li{
-    color: white;
-    font-size: 4rem;
-  }
 /* header */
 header {
     display: flex;

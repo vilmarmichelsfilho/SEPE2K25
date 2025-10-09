@@ -13,7 +13,7 @@
   font-family: "Bebas Neue", sans-serif;
       background-color: black;
  }
- /*Header*/
+/* header */
 header {
     display: flex;
     justify-content: space-between;
@@ -60,7 +60,7 @@ header {
 .navegacao-site ul {
     font-family: "Saira Stencil One", sans-serif;
     display: flex;
-    gap: 10px;
+    gap: 18px;
     font-size: 1.3vw;
 }
 .navegacao-site span {

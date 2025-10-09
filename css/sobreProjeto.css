@@ -16,7 +16,46 @@ body {
     color: white;
 }
 
-/* header */
+/* footer */
+.logo-container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.instagram-footer {
+    text-align: center;
+}
+.instagram-footer h4 {
+    font-size: 2rem;
+}
+.instagram-footer p {
+    margin-top: 15px;
+    font-size: 3rem;
+}
+.contatos-footer {
+    font-family: "ABeeZee", sans-serif;
+    text-align: center;
+}
+.contatos-footer p {
+    margin-bottom: 10px;
+}
+.contatos-footer p a {
+    text-decoration: underline;
+}
+.copyright-footer {
+    padding: 20px 0 20px 0;
+    text-align: center;
+    background-color: #F24B4B;
+}
+.linhas-footer {
+    margin: 1vw 0 1vw 0;
+    display: flex;
+    justify-content: center;
+}
+.linhas-footer img {
+    width: 90vw;
+}
+
 /* header */
 header {
     display: flex;

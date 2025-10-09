@@ -5,9 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 
-a{
-    text-decoration: none; /* remove o sublinhado dos links */
-    color: white; /* altera a cor de todos os links das páginas */
+a {
+    text-decoration: none;
+    /* remove o sublinhado dos links */
+    color: white;
+    /* altera a cor de todos os links das páginas */
 }
 
 body {
@@ -17,20 +19,22 @@ body {
 }
 
 /* header */
-/* header */
 header {
     display: flex;
     justify-content: space-between;
     margin: 0 2vw;
     background-color: black;
 }
+
 .logo-container {
     display: flex;
     align-items: center;
 }
+
 .logo {
     margin: 0 0 0 1.5vw;
 }
+
 .logo-text {
     color: white;
     font-family: sans-serif;
@@ -38,52 +42,64 @@ header {
     font-size: 1.8vw;
     padding: 0 0 0 0.5vw;
 }
+
 .logo-brain {
     width: 5vw;
     height: 5vw;
     padding: 0.4vw 0 0 0;
     transform: rotate(18.39deg);
 }
+
 .navegacao-site {
     color: white;
     margin-top: 2vw;
 }
+
 .navegacao-site ul li a {
     color: white;
     transition: color 0.3s ease;
 }
+
 .navegacao-site ul li {
     transition: transform 0.3s ease;
 }
+
 .navegacao-site ul li a:hover {
     color: #F24B4B;
 }
+
 .navegacao-site ul li:hover {
     transform: scale(1.1);
 }
+
 .navegacao-site ul {
     font-family: "Saira Stencil One", sans-serif;
     display: flex;
     gap: 10px;
     font-size: 1.3vw;
 }
+
 .navegacao-site span {
     text-decoration: underline;
     text-decoration-color: #F24B4B;
 }
+
 .navegacao-site nav ul li ul li {
-      position: relative;
-      margin: 15px 0 15px 0;
-      opacity: 0.7;
-      transition: opacity 0.3s ease, transform 0.3s ease;
+    position: relative;
+    margin: 15px 0 15px 0;
+    opacity: 0.7;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
+
 .navegacao-site nav ul li ul {
-      display: none;
+    display: none;
 }
+
 .navegacao-site nav ul li:hover ul {
-  display: block;
-  position: absolute;
+    display: block;
+    position: absolute;
 }
+
 .navegacao-site nav ul li ul li:hover {
     opacity: 1;
     transform: scale(1.1);
@@ -93,26 +109,29 @@ header {
 .banner-inicio {
     color: white;
     text-align: center;
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0,0,0,0)), 
-                      url('../images/bannerInicio.png');
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0)),
+        url('../images/bannerInicio.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: scroll;
     padding-bottom: 45vw;
 }
+
 .texto-inicio-banner {
     position: absolute;
     top: 50%;
     left: 32%;
     transform: translate(-50%, -50%);
 }
+
 .banner-inicio h1 {
     font-family: "Saira Stencil One", sans-serif;
     color: #ED1616;
     font-size: 7vw;
 }
-.banner-inicio h2 {
-    font-size: 7vw;
+.banner-inicio h1 span {
+    color: white;
+    margin-left: 20vw;
 }
 
 /* linhas */
@@ -120,43 +139,27 @@ header {
     padding: 4vw 0 4vw 0;
     display: flex;
     justify-content: center;
-    background: #141414;
+    background: linear-gradient(black,#141414,#141414);
 }
+
 .linhas img {
     width: 90vw;
+}
+
+.linhas3 {
+    padding: 10px 0;
+    display: flex;
+    justify-content: center;
+    background-color: transparent;
+}
+.linhas3 img {
+    width: 62vw;
 }
 
 /* principal */
 body main div {
     display: flex;
     justify-content: center;
-}
-body main div img {
-    width: 200px;
-}
-.videosTreino div {
-    margin-bottom: 2vw;
-}
-.videosTreino div ul li {
-    background: #F24B4B;
-    padding: 10px 10px;
-    border-radius: 5px;
-}
-.videosTreino div h2 {
-    font-size: 1.5rem;
-    color: #ffffff;
-    font-weight: bold;
-}
-.videosTreino div ul {
-    display: flex;
-    justify-content: space-between;
-    gap: 10rem; 
-}
-.videosTreino div ul li video {
-    border-radius: 10px;
-}
-.videosTreino {
-    background: linear-gradient(to bottom, #141414, rgb(0, 0, 0));
 }
 
 /* footer */
@@ -165,36 +168,100 @@ body main div img {
     align-items: center;
     justify-content: center;
 }
+
 .instagram-footer {
     text-align: center;
 }
+
 .instagram-footer h4 {
     font-size: 2rem;
 }
+
 .instagram-footer p {
     margin-top: 15px;
     font-size: 3rem;
 }
+
 .contatos-footer {
     font-family: "ABeeZee", sans-serif;
     text-align: center;
 }
+
 .contatos-footer p {
     margin-bottom: 10px;
 }
+
 .contatos-footer p a {
     text-decoration: underline;
 }
+
 .copyright-footer {
     padding: 20px 0 20px 0;
     text-align: center;
     background-color: #F24B4B;
 }
+
 .linhas-footer {
     margin: 1vw 0 1vw 0;
     display: flex;
     justify-content: center;
 }
+
 .linhas-footer img {
     width: 90vw;
+}
+
+/* cards */
+.card {
+    width: 180px;
+    height: 200px;
+    border-radius: 12px;
+    overflow: hidden;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 0 100px 0;
+}
+
+.bg-video {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    z-index: 0;
+}
+
+/* texto */
+.card h3 {
+    position: relative;
+    z-index: 1;
+    color: red;
+    font-weight: bold;
+    text-align: center;
+    align-items: center;
+    font-size: 1.5rem;
+    line-height: 1.2;
+    margin: 5px 0 0 100px;
+}
+.linhas-videos img {
+    width: 0.5vw;
+}
+.linhas-videos {
+    margin: 0 10px;
+}
+
+.videosTreino ul {
+    display: flex;
+    justify-content: center;
+}
+.videosTreino ul li {
+    display: flex;
+    align-items: center;
+}
+
+.videosTreino {
+    background: linear-gradient(#141414, black);
 }

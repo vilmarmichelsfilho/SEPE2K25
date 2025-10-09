@@ -13,6 +13,38 @@
   font-family: "Bebas Neue", sans-serif;
       background-color: black;
  }
+ main p {
+    color:white;
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+ }
+
+ main ul {
+    margin: 0 0 50px 0;
+    padding-left: 48px;
+ }
+
+ main section p{
+    line-height: 3.5rem;
+ }
+
+
+ main {
+    padding: 0 6vw 0 6vw;
+ }
+  main h2{
+    color: #ED1616;
+    font-size: 3.5rem;
+    font-weight: bold;
+    margin: 0 0 2vw 0;
+  }
+  main  ul{
+    list-style-type: disc;
+  }
+  main ul li{
+    color: white;
+    font-size: 4rem;
+  }
 /* header */
 header {
     display: flex;
@@ -85,8 +117,47 @@ header {
     transform: scale(1.1);
 }
 
- /*MAIN*/
- 
+ /*banner*/
+ .banner-inicio {
+    color: white;
+    text-align: center;
+    background-image: url(../images/bannerInicio.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: scroll;
+    padding-bottom: 45vw;
+}
+.texto-inicio-banner {
+    position: absolute;
+    top: 40%;
+    left: 32%;
+    transform: translate(-50%, -50%);
+}
+.banner-inicio h1 {
+    font-family: "Saira Stencil One", sans-serif;
+    color: #ED1616;
+    font-size: 7vw;
+}
+.banner-inicio h1 Span {
+    margin-left: 15vw;
+     color: white;
+}
+/* linhas */
+.linhas {
+    margin: 4vw 0 4vw 0;
+    display: flex;
+    justify-content: center;
+}
+.linhas img {
+    width: 90vw;
+}
+/*textos*/
+section.texto p{
+    text-align: center;
+    margin: 0 0 2vw 0;
+}
+/*lesoes frequentes*/
+
     /*footer*/
     footer{
  color: white;

@@ -211,6 +211,10 @@ header {
     width: 90vw;
 }
 
+.textosSaudeMental a {
+    text-decoration: underline;
+}
+
 /* sobre nós textos */
 .sobreNosTextos h3 {
     font-size: 3rem;

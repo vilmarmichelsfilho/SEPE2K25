@@ -25,13 +25,9 @@
  }
 
  main section p{
-    line-height: 2rem;
+    line-height: 3.5rem;
  }
 
-.imagem2 {
-    width: 80vw;
-    height: 30vw;
- }
 
  main {
     padding: 0 6vw 0 6vw;

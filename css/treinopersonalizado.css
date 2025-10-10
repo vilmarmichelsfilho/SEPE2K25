@@ -211,7 +211,27 @@
      text-align: center;
      color: #111;
  }
-
+/*section nav*/
+section.nav{
+    padding: 3vw 6vw 0 6vw;
+}
+section.nav nav ul li a{
+    display: flex;
+    justify-content:start;
+    align-items: center;
+    line-height: 3.5rem;
+}
+section.nav nav ul li a img {
+    background-color: #c00;
+    border-radius: 100vw;
+    margin: 0 1vw 0 0;
+}
+section.nav nav ul li a p {
+ color: #c00;
+ font-size: 2rem;
+ font-weight: bold;
+ font-family: "Post No Bills Colombo ExtraBold";
+}
  /*footer*/
  footer {
      color: white;

@@ -4,6 +4,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
 
  a{
     text-decoration: none; /* remove o sublinhado dos links */
@@ -11,11 +12,12 @@
 }
 
 p {
-    font-family: "ABeeZee", sans-serif;
+	font-style: italic;
+    font-family: "Roboto Condensed", sans-serif;
 }
 
 body {
-    font-family: "Bebas Neue", sans-serif;
+    
     background-color: black;
     color: white;
 }
@@ -112,6 +114,7 @@ header {
 }
 .instagram-footer h4 {
     font-size: 2rem;
+    font-family: "Bebas Neue", sans-serif;
 }
 .instagram-footer p {
     margin-top: 15px;
@@ -123,6 +126,7 @@ header {
 }
 .contatos-footer p {
     margin-bottom: 10px;
+    font-family: "ABeeZee", sans-serif;
 }
 .contatos-footer p a {
     text-decoration: underline;
@@ -171,21 +175,22 @@ header {
 /* textos */
 .saudeMentalTextos p {
     margin: 0 10vw;
-    font-size: 1.5rem;
-    line-height: 1.7rem;
+    font-size: 1.9rem;
+    line-height: 2.1rem;
 }
 .saudeMentalTextos2 h2 {
     font-size: 3rem;
     margin: 0 0 30px 0;
     text-align: center;
+    font-family: "Bebas Neue", sans-serif;
 }
 .saudeMentalTextos2 h2 span {
     color: #ED1616;
 }
 .saudeMentalTextos2 p {
     max-width: 30%;
-    font-size: 1.5rem;
-    line-height: 1.7rem;
+    font-size: 1.6rem;
+    line-height: 1.8rem;
     margin: 2vw 0;
 }
 .saudeMentalTextos2 div {

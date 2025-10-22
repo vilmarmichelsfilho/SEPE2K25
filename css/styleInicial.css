@@ -9,9 +9,7 @@ a{
     text-decoration: none; /* remove o sublinhado dos links */
     color: white; /* altera a cor de todos os links das páginas */
 }
-
 body {
-    font-family: "Roboto Condensed", sans-serif;
     font-family: "Bebas Neue", sans-serif;
     background-color: black;
     color: white;
@@ -143,6 +141,7 @@ header {
     font-family: "Alfa Slab One", serif;
     font-size: 3rem;
     padding: 20px 0;
+    text-align: center;
 }
 .melhoresTreinadores div {
     margin: 10vw 5vw;
@@ -157,8 +156,10 @@ header {
     color: #ED1616;
 }
 .melhoresTreinadores p {
-    font-family: "Noto Serif", serif;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: italic;
     margin-bottom: 30px;
+    font-size: 1.8rem;
 }
 .melhoresTreinadores ul {
     display: flex;
@@ -168,9 +169,14 @@ header {
 .melhoresTreinadores img {
     width: 250px;
 }
+.melhoresTreinadores ul li{
+    text-align: center;
+}
 .melhoresTreinadores ul li p {
     font-size: 0.8rem;
     opacity: 0.5;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: italic;
 }
 
 /* footer */
@@ -242,5 +248,6 @@ header {
     text-align: center;
     font-size: 1.7rem;
     padding: 10px 50px;
-    font-family: "Saira Stencil One", sans-serif;
+    font-family: "Roboto Condensed", sans-serif;
+    font-style: italic;
 }

@@ -171,8 +171,8 @@ header {
 /* textos */
 .saudeMentalTextos p {
     margin: 0 10vw;
-    font-size: 1.3rem;
-    line-height: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
 }
 .saudeMentalTextos2 h2 {
     font-size: 3rem;
@@ -184,8 +184,9 @@ header {
 }
 .saudeMentalTextos2 p {
     max-width: 30%;
-    font-size: 1.3rem;
-    line-height: 1.5rem;
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+    margin: 2vw 0;
 }
 .saudeMentalTextos2 div {
     display: flex;

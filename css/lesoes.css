@@ -156,7 +156,7 @@ section.lesoescomun ul li p{
 }
 section.lesoescomun img{
     text-align: center;
-    margin: 3vw 0 0 0;
+    margin: 3vw 0;
 }
 /*causas*/
 section.causaslesoes{
@@ -181,7 +181,7 @@ section.causaslesoes ul li p{
 }
 section.causaslesoes img{
     text-align: center;
-    margin: 3vw 0 0 0;
+    margin: 3vw 0;
 }
     /*footer*/
     footer{

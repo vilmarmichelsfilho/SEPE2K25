@@ -100,18 +100,14 @@
       <div class="container">
         <h2>Varzea <br> <span>GYM</span></h2>
         <form id="formTreino">
-          <!-- Pergunta 1 -->
           <div class="pergunta">
             <p><span>Pergunta 01</span><br>Quantos dias da semana você pode treinar?</p>
             <div class="opcoes">
               <label><input type="radio" name="dias" value="1-3"> 1-3 Dias</label>
-              <label><input type="radio" name="dias" value="3-4"> 3-4 Dias</label>
               <label><input type="radio" name="dias" value="4-5"> 4-5 Dias</label>
               <label><input type="radio" name="dias" value="5-7"> 5-7 Dias</label>
             </div>
           </div>
-
-          <!-- Pergunta 2 -->
           <div class="pergunta">
             <p><span>Pergunta 02</span><br>Você se considera iniciante, intermediário ou avançado?</p>
             <div class="opcoes">
@@ -120,8 +116,6 @@
               <label><input type="radio" name="nivel" value="avancado"> Avançado</label>
             </div>
           </div>
-
-          <!-- Pergunta 3 -->
           <div class="pergunta">
             <p><span>Pergunta 03</span><br>Foco em membros inferiores ou superiores</p>
             <div class="opcoes">
@@ -160,7 +154,7 @@
           if (dias === "1-3") {
             resultado = `Sua divisão de treino é Fullbody.<br>Faça este treino em todos os dias da semana que conseguir e realize <b>${series}</b> séries por exercício.`;
           }
-          else if (dias === "3-4" || dias === "4-5") {
+          else if ( dias === "4-5") {
             if (foco === "superiores") {
               resultado = `Sua divisão de treino é Push, Pull, Legs, Upper.<br>Realize <b>${series}</b> séries por exercício.`;
             } else if (foco === "inferiores") {

@@ -207,14 +207,14 @@ header {
 .left {
     justify-content: left;
     background-color: #F24B4B;
-    margin-left: 15vw;
+    margin-left: 25vw;
     padding: 15px 0 15px 0;
     border-radius: 15px 0 0 15px;
 }
 .right {
     justify-content: left;
     background-color: #F24B4B;
-    margin-right: 15vw;
+    margin-right: 25vw;
     padding: 15px 0 15px 0;
     border-radius: 0 15px 15px 0;
 }

@@ -81,15 +81,15 @@
   </header>
   <main>
     <section class="banner-inicio">
-            <div class="texto-inicio-banner">
-                <h1>
-                    MIND
-                </h1>
-                <h2>
-                    COMO TREINAR SUA MENTE
-                </h2>
-            </div>
-        </section>
+      <div class="texto-inicio-banner">
+        <h1>
+          MIND
+        </h1>
+        <h2>
+          COMO TREINAR SUA MENTE
+        </h2>
+      </div>
+    </section>
     <section class="title">
       <h2>Formulário</h2>
     </section>
@@ -124,10 +124,35 @@
               <label><input type="radio" name="foco" value="ambos"> Ambos</label>
             </div>
           </div>
-
-          <button type="submit"><p>Gerar Divisão</p></button>
+          <div class="pergunta">
+            <p><span>pergunta 04</span><br>Você possui alguma restrição para a prática de exercícios físicos?</p>
+            <div class="opcoes">
+              <label><input type="radio" name="restricao" value="nao"> Não</label>
+              <label><input type="radio" name="restricao" value="ombro"> Lesão no ombro</label>
+              <label><input type="radio" name="restricao" value="coluna"> Lesão na coluna</label>
+              <label><input type="radio" name="restricao" value="joelho"> Lesão no joelho</label>
+              <label><input type="radio" name="restricao" value="outros"> Outros</label>
+            </div>
+          </div>
+          <div class="pergunta">
+            <p><span>pergunta 05</span><br>Onde você consegue se exercitar?</p>
+            <div class="opcoes">
+              <label><input type="radio" name="lugar" value="academia"> Academia</label>
+              <label><input type="radio" name="lugar" value="casa"> Casa</label>
+            </div>
+          </div>
+          <div class="pergunta">
+            <p><span>pergunta 06</span><br>6-Qual é seu objetivo com a academia?</p>
+            <div class="opcoes">
+              <label><input type="radio" name="objetivo" value="saude"> Saúde</label>
+              <label><input type="radio" name="objetivo" value="emagrecer"> Emegracer</label>
+              <label><input type="radio" name="objetivo" value="massamuscular"> Ganhar massa muscular</label>
+            </div>
+          </div>
+          <button type="submit">
+            <p>Gerar Divisão</p>
+          </button>
         </form>
-
         <div id="resultado"></div>
       </div>
 
@@ -138,8 +163,10 @@
           const diasSelecionado = document.querySelector('input[name="dias"]:checked');
           const nivelSelecionado = document.querySelector('input[name="nivel"]:checked');
           const focoSelecionado = document.querySelector('input[name="foco"]:checked');
-
-          if (!diasSelecionado || !nivelSelecionado || !focoSelecionado) {
+          const restricaoSelecionada = document.querySelector('input[name="restricao"]:checked')
+          const lugarSelecionado = document.querySelector('input[name="lugar"]:checked')
+          const objetivoSelecionado = document.querySelector('input[name="objetivo"]:checked')
+          if (!diasSelecionado || !nivelSelecionado || !focoSelecionado || !restricaoSelecionada || !objetivoSelecionado || !lugarSelecionado) {
             alert("Por favor, responda todas as perguntas.");
             return;
           }
@@ -147,48 +174,85 @@
           let dias = diasSelecionado.value;
           let nivel = nivelSelecionado.value;
           let foco = focoSelecionado.value;
+          let restricao = restricaoSelecionada.value;
+          let lugar = lugarSelecionado.value;
+          let objetivo = objetivoSelecionado.value;
           let series = (nivel === "iniciante") ? 2 : (nivel === "intermediario") ? 3 : 4;
           let resultado = "";
-
-          // Decisão conforme a lógica
+          if (restricao == "nao") {
+            if (dias === "1-3") {
+              resultado = `Sua divisão de treino é Fullbody.<br>Faça este treino em todos os dias da semana que conseguir e realize <b>${series}</b> séries por exercício.`;
+            }
+            else if (dias === "4-5") {
+              if (foco === "superiores") {
+                resultado = `Sua divisão de treino é Push, Pull, Legs, Upper.<br>Realize <b>${series}</b> séries por exercício.`;
+              } else if (foco === "inferiores") {
+                resultado = `Sua divisão de treino é Push, Pull, Legs, Lower.<br>Realize <b>${series}</b> séries por exercício.`;
+              } else {
+                resultado = `Sua divisão de treino é Upper/Lower 2x.<br>Realize <b>${series}</b> séries por exercício.`;
+              }
+            }
+            else if (dias === "5-7") {
+              if (foco === "superiores") {
+                resultado = `Sua divisão de treino é Upper/Lower 2x + Upper.<br>Realize <b>${series}</b> séries por exercício.`;
+              } else if (foco === "inferiores") {
+                resultado = `Sua divisão de treino é Upper/Lower 2x + Lower.<br>Realize <b>${series}</b> séries por exercício.`;
+              } else {
+                resultado = `Sua divisão de treino é Push, Pull, Legs, Upper, Lower.<br>Realize <b>${series}</b> séries por exercício.`;
+              }
+            }
+          }
+        else if( restricao == "ombro" ){
           if (dias === "1-3") {
-            resultado = `Sua divisão de treino é Fullbody.<br>Faça este treino em todos os dias da semana que conseguir e realize <b>${series}</b> séries por exercício.`;
-          }
-          else if ( dias === "4-5") {
-            if (foco === "superiores") {
-              resultado = `Sua divisão de treino é Push, Pull, Legs, Upper.<br>Realize <b>${series}</b> séries por exercício.`;
-            } else if (foco === "inferiores") {
-              resultado = `Sua divisão de treino é Push, Pull, Legs, Lower.<br>Realize <b>${series}</b> séries por exercício.`;
-            } else {
-              resultado = `Sua divisão de treino é Upper/Lower 2x.<br>Realize <b>${series}</b> séries por exercício.`;
+              resultado = `Sua divisão de treino é Fullbody.<br>Faça este treino em todos os dias da semana que conseguir e realize <b>${series}</b> séries por exercício.`;
             }
-          }
-          else if (dias === "5-7") {
-            if (foco === "superiores") {
-              resultado = `Sua divisão de treino é Upper/Lower 2x + Upper.<br>Realize <b>${series}</b> séries por exercício.`;
-            } else if (foco === "inferiores") {
-              resultado = `Sua divisão de treino é Upper/Lower 2x + Lower.<br>Realize <b>${series}</b> séries por exercício.`;
-            } else {
-              resultado = `Sua divisão de treino é Push, Pull, Legs, Upper, Lower.<br>Realize <b>${series}</b> séries por exercício.`;
+            else if (dias === "4-5") {
+              if (foco === "superiores") {
+                resultado = `Sua divisão de treino é Push, Pull, Legs, Upper.<br>Realize <b>${series}</b> séries por exercício.`;
+              } else if (foco === "inferiores") {
+                resultado = `Sua divisão de treino é Push, Pull, Legs, Lower.<br>Realize <b>${series}</b> séries por exercício.`;
+              } else {
+                resultado = `Sua divisão de treino é Upper/Lower 2x.<br>Realize <b>${series}</b> séries por exercício.`;
+              }
             }
-          }
-
+            else if (dias === "5-7") {
+              if (foco === "superiores") {
+                resultado = `Sua divisão de treino é Upper/Lower 2x + Upper.<br>Realize <b>${series}</b> séries por exercício.`;
+              } else if (foco === "inferiores") {
+                resultado = `Sua divisão de treino é Upper/Lower 2x + Lower.<br>Realize <b>${series}</b> séries por exercício.`;
+              } else {
+                resultado = `Sua divisão de treino é Push, Pull, Legs, Upper, Lower.<br>Realize <b>${series}</b> séries por exercício.`;
+              }
+            }
+        }
           document.getElementById("resultado").innerHTML = resultado;
         });
       </script>
     </section>
     <section class="nav">
-        <div class="linhas">
-      <img src="images/linha.png" alt="Linha">
-    </div>
+      <div class="linhas">
+        <img src="images/linha.png" alt="Linha">
+      </div>
       <nav>
         <ul>
-          <li><a href="treinos/push.html"> <img src="images/play_arrow_filled.png" alt="play"> <p>TREINO PUSH</p> </a> </li>
-           <li><a href="treinos/pull.html"><img src="images/play_arrow_filled.png" alt="play"> <p>TREINO PULL</p></a></li>
-            <li><a href="treinos/legday.html"><img src="images/play_arrow_filled.png" alt="play"> <p>TREINO LEGS</p></a></li>
-             <li><a href="treinos/inferiores.html"><img src="images/play_arrow_filled.png" alt="play"> <p>TREINO INFERIORES</p></a></li>
-              <li><a href="treinos/superiores.html"><img src="images/play_arrow_filled.png" alt="play"> <p>TREINO SUPERIORES</p></a></li>
-               <li><a href="treinos/fullbody.html"><img src="images/play_arrow_filled.png" alt="play"> <p>TREINO FULLBODY</p></a></li>
+          <li><a href="treinos/push.html"> <img src="images/play_arrow_filled.png" alt="play">
+              <p>TREINO PUSH</p>
+            </a> </li>
+          <li><a href="treinos/pull.html"><img src="images/play_arrow_filled.png" alt="play">
+              <p>TREINO PULL</p>
+            </a></li>
+          <li><a href="treinos/legday.html"><img src="images/play_arrow_filled.png" alt="play">
+              <p>TREINO LEGS</p>
+            </a></li>
+          <li><a href="treinos/inferiores.html"><img src="images/play_arrow_filled.png" alt="play">
+              <p>TREINO INFERIORES</p>
+            </a></li>
+          <li><a href="treinos/superiores.html"><img src="images/play_arrow_filled.png" alt="play">
+              <p>TREINO SUPERIORES</p>
+            </a></li>
+          <li><a href="treinos/fullbody.html"><img src="images/play_arrow_filled.png" alt="play">
+              <p>TREINO FULLBODY</p>
+            </a></li>
         </ul>
       </nav>
     </section>

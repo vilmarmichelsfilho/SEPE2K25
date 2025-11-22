@@ -66,6 +66,9 @@ header {
 .navegacao-site ul li:hover {
     transform: scale(1.1);
 }
+.navegacao-site ul li p:hover{
+    color: #F24B4B;
+}
 .navegacao-site ul {
     font-family: "Saira Stencil One", sans-serif;
     display: flex;

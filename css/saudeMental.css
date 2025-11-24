@@ -22,16 +22,6 @@ body {
     color: white;
 }
 
-/* linhas */
-.linhas {
-    margin: 4vw 0 4vw 0;
-    display: flex;
-    justify-content: center;
-}
-.linhas img {
-    width: 90vw;
-}
-
 /* header */
 header {
     display: flex;
@@ -39,113 +29,90 @@ header {
     margin: 0 2vw;
     background-color: black;
 }
+
 .logo-container {
     display: flex;
     align-items: center;
 }
+
 .logo {
+    width: 4vw;
+    height: 4vw;
     margin: 0 0 0 1.5vw;
 }
+
 .logo-text {
     color: white;
     font-family: sans-serif;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 1.8vw;
     padding: 0 0 0 0.5vw;
 }
+
 .logo-brain {
     width: 5vw;
     height: 5vw;
     padding: 0.4vw 0 0 0;
     transform: rotate(18.39deg);
 }
+
 .navegacao-site {
     color: white;
     margin-top: 2vw;
 }
+
 .navegacao-site ul li a {
     color: white;
     transition: color 0.3s ease;
 }
+
 .navegacao-site ul li {
     transition: transform 0.3s ease;
 }
+
 .navegacao-site ul li a:hover {
     color: #F24B4B;
 }
+
 .navegacao-site ul li:hover {
     transform: scale(1.1);
 }
-.navegacao-site ul li p:hover{
+
+.navegacao-site ul li p:hover {
     color: #F24B4B;
 }
+
 .navegacao-site ul {
     font-family: "Saira Stencil One", sans-serif;
     display: flex;
     gap: 18px;
     font-size: 1.3vw;
 }
+
 .navegacao-site span {
     text-decoration: underline;
     text-decoration-color: #F24B4B;
 }
+
 .navegacao-site nav ul li ul li {
-      position: relative;
-      margin: 15px 0 15px 0;
-      opacity: 0.7;
-      transition: opacity 0.3s ease, transform 0.3s ease;
+    position: relative;
+    margin: 15px 0 15px 0;
+    opacity: 0.7;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
+
 .navegacao-site nav ul li ul {
-      display: none;
+    display: none;
 }
+
 .navegacao-site nav ul li:hover ul {
-  display: block;
-  position: absolute;
+    display: block;
+    position: absolute;
 }
+
 .navegacao-site nav ul li ul li:hover {
     opacity: 1;
     transform: scale(1.1);
-}
-/* footer */
-.logo-container-footer {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.instagram-footer {
-    text-align: center;
-}
-.instagram-footer h4 {
-    font-size: 2rem;
-    font-family: "Bebas Neue", sans-serif;
-}
-.instagram-footer p {
-    margin-top: 15px;
-    font-size: 3rem;
-}
-.contatos-footer {
-    font-family: "ABeeZee", sans-serif;
-    text-align: center;
-}
-.contatos-footer p {
-    margin-bottom: 10px;
-    font-family: "ABeeZee", sans-serif;
-}
-.contatos-footer p a {
-    text-decoration: underline;
-}
-.copyright-footer {
-    padding: 20px 0 20px 0;
-    text-align: center;
-    background-color: #F24B4B;
-}
-.linhas-footer {
-    margin: 1vw 0 1vw 0;
-    display: flex;
-    justify-content: center;
-}
-.linhas-footer img {
-    width: 90vw;
 }
 
 /* main-banner */
@@ -158,33 +125,38 @@ header {
     background-attachment: scroll;
     padding-bottom: 45vw;
 }
+
 .texto-inicio-banner {
     position: absolute;
-    top: 40%;
-    left: 24%;
-    transform: translate(-50%, -50%);
+    margin: 13vw 8vw;
 }
+
 .banner-inicio h1 {
     font-family: "Saira Stencil One", sans-serif;
     color: #ED1616;
-    font-size: 5vw;
+    font-size: 7vw;
 }
+
 .banner-inicio h2 {
-    font-family: "Saira Stencil One", sans-serif;
-    font-size: 5vw;
+    color: #ED1616;
     margin-left: 15vw;
+    font-family: "Saira Stencil One", sans-serif;
+    font-size: 7vw;
+}
+.banner-inicio h2 span {
+    color: white;
 }
 
 /* textos */
 .saudeMentalTextos p {
     margin: 0 10vw;
-    font-size: 1.9rem;
-    line-height: 2.1rem;
+    font-size: 1.9vw;
+    line-height: 2.1vw;
 }
 .saudeMentalTextos2 h2 {
-    font-size: 3rem;
-    margin: 0 0 30px 0;
-    text-align: center;
+    font-size: 3vw;
+    margin: 0 0 0 12vw;
+    text-align: left;
     font-family: "Bebas Neue", sans-serif;
 }
 .saudeMentalTextos2 h2 span {
@@ -192,13 +164,14 @@ header {
 }
 .saudeMentalTextos2 p {
     max-width: 30%;
-    font-size: 1.6rem;
-    line-height: 1.8rem;
+    font-size: 1.6vw;
+    line-height: 1.8vw;
     margin: 2vw 0;
 }
-.saudeMentalTextos2 div {
+.right {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    margin: 0 12vw;
     gap: 3vw;
 }
 .saudeMentalTextos2 iframe {
@@ -207,17 +180,77 @@ header {
 .saudeMentalTextos2 {
     margin-bottom: 4vw;
 }
-.left {
-    justify-content: left;
-    background-color: #F24B4B;
-    margin-left: 25vw;
-    padding: 15px 0 15px 0;
-    border-radius: 15px 0 0 15px;
+
+/* footer */
+.logo-container-footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
-.right {
-    justify-content: left;
+
+.instagram-footer {
+    text-align: center;
+}
+
+.instagram-footer h4 {
+    font-size: 2rem;
+}
+
+.instagram-footer p {
+    margin-top: 15px;
+    font-size: 3rem;
+}
+
+.contatos-footer {
+    font-family: "ABeeZee", sans-serif;
+    text-align: center;
+}
+
+.contatos-footer p {
+    margin-bottom: 10px;
+}
+
+.contatos-footer p a {
+    text-decoration: underline;
+}
+
+.copyright-footer {
+    padding: 20px 0 20px 0;
+    text-align: center;
     background-color: #F24B4B;
-    margin-right: 25vw;
-    padding: 15px 0 15px 0;
-    border-radius: 0 15px 15px 0;
+}
+
+.linhas-footer {
+    margin: 1vw 0 1vw 0;
+    display: flex;
+    justify-content: center;
+}
+
+.linhas-footer img {
+    width: 90vw;
+}
+
+iframe {
+    width: 32vw;
+    height: 22vw;
+}
+
+@media only screen and (max-width: 992px) {
+    .saudeMentalTextos p {
+        font-size: 2vw;
+    }
+    .saudeMentalTextos2 p {
+        font-size: 2vw;
+        max-width: 50%;
+    }
+}
+
+/* linhas */
+.linhas {
+    margin: 4vw 0 4vw 0;
+    display: flex;
+    justify-content: center;
+}
+.linhas img {
+    width: 90vw;
 }

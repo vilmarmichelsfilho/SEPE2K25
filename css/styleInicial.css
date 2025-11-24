@@ -10,10 +10,13 @@ body {
     background: #F5F5F5;
 }
 
-a{
-    text-decoration: none; /* remove o sublinhado dos links */
-    color: white; /* altera a cor de todos os links das páginas */
+a {
+    text-decoration: none;
+    /* remove o sublinhado dos links */
+    color: white;
+    /* altera a cor de todos os links das páginas */
 }
+
 body {
     font-family: "Bebas Neue", sans-serif;
     background-color: black;
@@ -27,15 +30,18 @@ header {
     margin: 0 2vw;
     background-color: black;
 }
+
 .logo-container {
     display: flex;
     align-items: center;
 }
+
 .logo {
     width: 4vw;
     height: 4vw;
     margin: 0 0 0 1.5vw;
 }
+
 .logo-text {
     color: white;
     font-family: sans-serif;
@@ -43,55 +49,68 @@ header {
     font-size: 1.8vw;
     padding: 0 0 0 0.5vw;
 }
+
 .logo-brain {
     width: 5vw;
     height: 5vw;
     padding: 0.4vw 0 0 0;
     transform: rotate(18.39deg);
 }
+
 .navegacao-site {
     color: white;
     margin-top: 2vw;
 }
+
 .navegacao-site ul li a {
     color: white;
     transition: color 0.3s ease;
 }
+
 .navegacao-site ul li {
     transition: transform 0.3s ease;
 }
+
 .navegacao-site ul li a:hover {
     color: #F24B4B;
 }
+
 .navegacao-site ul li:hover {
     transform: scale(1.1);
 }
-.navegacao-site ul li p:hover{
+
+.navegacao-site ul li p:hover {
     color: #F24B4B;
 }
+
 .navegacao-site ul {
     font-family: "Saira Stencil One", sans-serif;
     display: flex;
     gap: 18px;
     font-size: 1.3vw;
 }
+
 .navegacao-site span {
     text-decoration: underline;
     text-decoration-color: #F24B4B;
 }
+
 .navegacao-site nav ul li ul li {
-      position: relative;
-      margin: 15px 0 15px 0;
-      opacity: 0.7;
-      transition: opacity 0.3s ease, transform 0.3s ease;
+    position: relative;
+    margin: 15px 0 15px 0;
+    opacity: 0.7;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
+
 .navegacao-site nav ul li ul {
-      display: none;
+    display: none;
 }
+
 .navegacao-site nav ul li:hover ul {
-  display: block;
-  position: absolute;
+    display: block;
+    position: absolute;
 }
+
 .navegacao-site nav ul li ul li:hover {
     opacity: 1;
     transform: scale(1.1);
@@ -107,18 +126,22 @@ header {
     background-attachment: scroll;
     padding-bottom: 45vw;
 }
+
 .texto-inicio-banner {
     position: absolute;
     margin: 13vw 8vw;
 }
+
 .banner-inicio h1 {
     font-family: "Saira Stencil One", sans-serif;
     color: #ED1616;
     font-size: 7vw;
 }
+
 .banner-inicio h2 {
     font-size: 4vw;
 }
+
 .redesSociaisBanner {
     padding: 5px 450px 5px 100px;
     background: linear-gradient(to right, #ED1616, #ED1616, white);
@@ -127,6 +150,7 @@ header {
     font-size: 1.8vw;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
 }
+
 .redesSociaisBanner a {
     margin: 0 8px 0 8px;
 }
@@ -137,8 +161,9 @@ header {
     display: flex;
     justify-content: center;
 }
+
 .linhas img {
-    max-width: 100%; 
+    max-width: 100%;
     width: 95%;
 }
 
@@ -146,12 +171,14 @@ header {
 .melhoresTreinadores {
     background-color: #2C2C2C;
 }
+
 .melhoresTreinadores h2 {
     font-family: "Alfa Slab One", serif;
     font-size: 2.5vw;
     padding: 1.5vw 0;
     text-align: center;
 }
+
 .melhoresTreinadores div {
     margin: 4vw 5vw;
 }
@@ -161,9 +188,11 @@ header {
     font-size: 1.3vw;
     margin-bottom: 0.3vw;
 }
+
 .melhoresTreinadores h2 span {
     color: #ED1616;
 }
+
 .melhoresTreinadores p {
     font-family: "Roboto Condensed", sans-serif;
     font-style: italic;
@@ -171,17 +200,21 @@ header {
     font-size: 1.5vw;
     text-align: center;
 }
+
 .melhoresTreinadores ul {
     display: flex;
     justify-content: space-between;
     margin: 0 15vw 0 15vw;
 }
+
 .melhoresTreinadores img {
     width: 18vw;
 }
-.melhoresTreinadores ul li{
+
+.melhoresTreinadores ul li {
     text-align: center;
 }
+
 .melhoresTreinadores ul li p {
     font-size: 0.8vw;
     opacity: 0.5;
@@ -196,43 +229,47 @@ header {
     align-items: center;
     justify-content: center;
 }
+
 .instagram-footer {
     text-align: center;
 }
+
 .instagram-footer h4 {
-    font-size: 2vw;
+    font-size: 2rem;
 }
+
 .instagram-footer p {
-    margin-top: 0.5vw;
-    font-size: 3vw;
+    margin-top: 15px;
+    font-size: 3rem;
 }
+
 .contatos-footer {
     font-family: "ABeeZee", sans-serif;
     text-align: center;
 }
+
 .contatos-footer p {
-    font-size: 1.2vw;
-    margin-bottom: 0.5vw;
+    margin-bottom: 10px;
 }
+
 .contatos-footer p a {
     text-decoration: underline;
 }
+
 .copyright-footer {
-    padding: 1.2vw 0 1.2vw 0;
+    padding: 20px 0 20px 0;
     text-align: center;
     background-color: #F24B4B;
 }
-.copyright-footer p {
-    font-size: 1.4vw;
-}
+
 .linhas-footer {
     margin: 1vw 0 1vw 0;
     display: flex;
     justify-content: center;
 }
+
 .linhas-footer img {
-    max-width: 100%;
-    width: 95%;
+    width: 90vw;
 }
 
 .textosSaudeMental a {
@@ -245,24 +282,46 @@ header {
     text-align: center;
     margin-bottom: 10px;
 }
+
 .sobreNosTextos h3 span {
     color: #ED1616;
 }
+
 .sobreNosTextosP2 {
     margin-bottom: 3vw;
 }
+
 .sobreNosTextosP2 h3 {
     font-family: "Saira Stencil One", sans-serif;
     font-size: 3.2vw;
     text-align: center;
 }
+
 .sobreNosTextosP2 h3 span {
     color: #ED1616;
 }
+
 .sobreNosTextosP2 p {
     text-align: center;
     font-size: 1.5vw;
     padding: 2vw 6vw;
     font-family: "Roboto Condensed", sans-serif;
     font-style: italic;
+}
+
+
+
+@media only screen and (max-width: 992px) {
+    .melhoresTreinadores {
+        margin: 14% 0 14% 0;
+    }
+    .sobreNosTextosP2 p {
+        font-size: 2vw;
+    }
+    .melhoresTreinadores p {
+        font-size: 2vw;
+    }
+    .melhoresTreinadores ul li p {
+        font-size: 1vw;
+    }
 }

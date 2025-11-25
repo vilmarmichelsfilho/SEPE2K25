@@ -384,3 +384,8 @@ section.nav nav ul li a p {
     font-size: 3rem;
  }
 }
+@media (max-width: 576px){
+    .container{
+width: 100vw;
+    }
+}

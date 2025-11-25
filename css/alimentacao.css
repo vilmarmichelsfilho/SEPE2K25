@@ -14,76 +14,95 @@
       background-color: black;
       color: white;
  }
+ 
 /* header */
 header {
     display: flex;
     justify-content: space-between;
-    padding: 0 2vw;
-    background-color: rgb(133, 133, 133);
+    padding: 0 2vw 0 0;
+    background: rgb(133, 133, 133);
 }
+
 .logo-container {
     display: flex;
     align-items: center;
 }
+
 .logo {
+    width: 4vw;
+    height: 4vw;
     margin: 0 0 0 1.5vw;
 }
+
 .logo-text {
     color: white;
     font-family: sans-serif;
-    font-weight: bolder;
+    font-weight: bold;
     font-size: 1.8vw;
     padding: 0 0 0 0.5vw;
 }
+
 .logo-brain {
     width: 5vw;
     height: 5vw;
     padding: 0.4vw 0 0 0;
     transform: rotate(18.39deg);
 }
+
 .navegacao-site {
     color: white;
     margin-top: 2vw;
 }
+
 .navegacao-site ul li a {
     color: white;
     transition: color 0.3s ease;
 }
+
 .navegacao-site ul li {
     transition: transform 0.3s ease;
 }
+
 .navegacao-site ul li a:hover {
     color: #F24B4B;
 }
+
 .navegacao-site ul li:hover {
     transform: scale(1.1);
 }
-.navegacao-site ul li p:hover{
+
+.navegacao-site ul li p:hover {
     color: #F24B4B;
 }
+
 .navegacao-site ul {
     font-family: "Saira Stencil One", sans-serif;
     display: flex;
     gap: 18px;
     font-size: 1.3vw;
 }
+
 .navegacao-site span {
     text-decoration: underline;
     text-decoration-color: #F24B4B;
 }
+
 .navegacao-site nav ul li ul li {
-      position: relative;
-      margin: 15px 0 15px 0;
-      opacity: 0.7;
-      transition: opacity 0.3s ease, transform 0.3s ease;
+    position: relative;
+    margin: 15px 0 15px 0;
+    opacity: 0.7;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
+
 .navegacao-site nav ul li ul {
-      display: none;
+    display: none;
 }
+
 .navegacao-site nav ul li:hover ul {
-  display: block;
-  position: absolute;
+    display: block;
+    position: absolute;
 }
+
 .navegacao-site nav ul li ul li:hover {
     opacity: 1;
     transform: scale(1.1);
@@ -171,8 +190,8 @@ header {
     border-bottom-left-radius: 30px;
 }
 
-/*banner*/
- .banner-inicio {
+/* main-banner */
+.banner-inicio {
     color: white;
     text-align: center;
     background-image: url(../images/bannerAlimentação.png);
@@ -181,20 +200,21 @@ header {
     background-attachment: scroll;
     padding-bottom: 45vw;
 }
+
 .texto-inicio-banner {
     position: absolute;
-    top: 40%;
-    left: 32%;
-    transform: translate(-50%, -50%);
+    margin: 13vw 8vw;
 }
+
 .banner-inicio h1 {
     font-family: "Saira Stencil One", sans-serif;
     color: #ED1616;
     font-size: 7vw;
 }
-.banner-inicio h1 Span {
-    margin-left: 18vw;
-     color: white;
+
+.banner-inicio h2 {
+    font-size: 4vw;
+    
 }
 
 /* texto1 */
@@ -202,24 +222,25 @@ header {
     margin: 5vw 10vw;
 }
 .texto1 h2 {
+    text-align: left;
     font-family: "Alfa Slab One", serif;
-    font-size: 2rem;
-    margin: 0 0 2vw 9vw;
+    font-size: 2vw;
+    margin: 0 0 2vw 0;
 }
 .texto1 div {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 5vw;
 }
 .texto1 img {
-    width: 500px;
+    width: 25vw;
 }
 .texto1 p {
     font-family: "Noto Serif", serif;
-    font-size: 1.5rem;
-    line-height: 1.6rem;
-    max-width: 250px;
+    font-size: 1.6vw;
+    line-height: 2.3vw;
+    max-width: 80%;
 }
 
 /* texto2 */
@@ -228,21 +249,26 @@ header {
 }
 .texto2 h2 {
     font-family: "Alfa Slab One", serif;
-    font-size: 2rem;
+    font-size: 3vw;
     color: #ED1616;
     margin: 0 0 1vw 0;
+    font-weight: normal;
 }
 .texto2 p {
     font-family: "Noto Serif", serif;
-    font-size: 1.5rem;
-    line-height: 1.6rem;
+    font-size: 1.5vw;
+    line-height: 1.6vw;
+}
+.texto2 ul {
+    list-style-type: disc;
 }
 .texto2 ul li {
-    margin: 0 0 15px 0;
+    margin: 0 0 1vw 0;
 }
 .texto2 img {
-    width: 1000px;
-    height: 300px;
+    margin: 1vw 0 0 0;
+    width: 50vw;
+    height: 23vw;
 }
 
 /* texto3 */
@@ -251,21 +277,51 @@ header {
 }
 .texto3 h2 {
     font-family: "Alfa Slab One", serif;
-    font-size: 2rem;
+    font-size: 3vw;
     margin: 0 0 1vw 0;
 }
 .texto3 p {
     font-family: "Noto Serif", serif;
-    font-size: 1.5rem;
-    line-height: 1.6rem;
+    font-size: 1.5vw;
+    line-height: 1.6vw;
 }
 .texto3 ul {
     list-style-type: disc;
 }
 .texto3 ul li {
-    margin: 0 0 15px 0;
+    margin: 0 0 1vw 0;
 }
 .texto3 img {
-    width: 1000px;
-    height: 300px;
+    margin: 1vw 0 0 0;
+    width: 50vw;
+    height: 23vw;
+}
+
+/* linhas */
+.linhas {
+    margin: 4vw 0 4vw 0;
+    display: flex;
+    justify-content: center;
+}
+
+.linhas img {
+    max-width: 100%;
+    width: 95%;
+}
+
+@media (max-width: 999px) {
+    .texto1 h2 {
+        font-size: 3vw;
+    }
+    .texto1 p {
+        font-size: 2vw;
+    }
+    .texto2 p {
+        font-size: 2vw;
+        line-height: 2.3vw;
+    }
+    .texto3 p {
+        font-size: 2vw;
+        line-height: 2.3vw;
+    }
 }

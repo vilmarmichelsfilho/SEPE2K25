@@ -29,6 +29,8 @@ header {
 }
 .logo {
     margin: 0 0 0 1.5vw;
+    width: 4vw;
+    height: 4vw;
 }
 .logo-text {
     color: white;
@@ -141,21 +143,35 @@ header {
     background-attachment: scroll;
     padding-bottom: 45vw;
 }
+
 .texto-inicio-banner {
     position: absolute;
-    top: 40%;
-    left: 22%;
-    transform: translate(-50%, -50%);
+    margin: 13vw 8vw;
 }
+
 .banner-inicio h1 {
     font-family: "Saira Stencil One", sans-serif;
     color: #ED1616;
     font-size: 7vw;
 }
+
 .banner-inicio h2 {
     font-family: "Saira Stencil One", sans-serif;
     font-size: 7vw;
-    margin-left: 15vw;
+    margin-left: 5vw;
+}
+
+.redesSociaisBanner {
+    padding: 5px 450px 5px 100px;
+    background: linear-gradient(to right, #ED1616, #ED1616, white);
+    position: absolute;
+    top: 100vh;
+    font-size: 1.8vw;
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
+}
+
+.redesSociaisBanner a {
+    margin: 0 8px 0 8px;
 }
 
 /* linhas */
@@ -170,34 +186,34 @@ header {
 
 /* sobre nós textos */
 .sobreNosTextos h3 {
-    font-size: 3rem;
+    font-size: 3vw;
     text-align: center;
-    margin-bottom: 10px;
+    margin-bottom: 0.5vw;
 }
 .sobreNosTextos h3 span {
     color: #ED1616;
 }
 .sobreNosTextosP1 {
-    margin-bottom: 30px;
+    margin-bottom: 2vw;
 }
 .sobreNosTextosP1 p {
     background-color: #2C2C2C;
     margin-right: 10vw;
     padding: 2vw 2vw 2vw 2vw;
-    border-top-right-radius: 30px;
-    border-bottom-right-radius: 30px;
-    font-size: 1.2rem;
-    line-height: 1.6rem;
+    border-top-right-radius: 2vw;
+    border-bottom-right-radius: 2vw;
+    font-size: 1.2vw;
+    line-height: 1.6vw;
     font-family: "Noto Serif", serif;
 }
 .sobreNosTextosP2 p {
     background-color: #2C2C2C;
     margin-left: 10vw;
     padding: 2vw 2vw 2vw 2vw;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
-    font-size: 1.1rem;
-    line-height: 1.6rem;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
+    font-size: 1.1vw;
+    line-height: 1.6vw;
     font-family: "Noto Serif", serif;
 }
 .sobreNosTextosP2 {
@@ -207,13 +223,13 @@ header {
     background-color: #2C2C2C   ;
     margin-left: 11vw;
     padding: 2vw 2vw 2vw 2vw;
-    border-top-left-radius: 30px;
-    border-bottom-left-radius: 30px;
+    border-top-left-radius: 2vw;
+    border-bottom-left-radius: 2vw;
 }
 
 /* Sobre nós */
 .sobreNos {
-    margin: 0 30px 0 30px;
+    margin: 0 2vw 0 2vw;
 }
 .sobreNos h2{
     font-size: 3rem;
@@ -226,37 +242,54 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 90px;
+    gap: 4vw;
 }
 .imagensPessoas {
     display: flex;
     justify-content: center;
 }
 .imagensPessoas img {
-    width: 200px;
+    width: 15vw;
 }
 .imagensPessoas p {
-    font-size: 1.2rem;
-    line-height: 1.6rem;
+    font-size: 1.2vw;
+    line-height: 1.6vw;
 }
 
 .sobreNosSaibaMais {
     margin-bottom: 2vw;
 }
 .sobreNosSaibaMais div img {
-    width: 180vh;
-    height: 50vh;
+    width: 50vw;
+    height: 20vw;
 }
 .sobreNosSaibaMais div {
-    margin: 15px 0 20px 0;
+    margin: 0.8vw 0 1vw 0;
     display: flex;
     justify-content: center;
 }
 .sobreNosSaibaMais p a {
     margin-left: 5.2vw;
     background-color: #ED1616;
-    padding: 10px 60px 10px 60px;
-    border-radius: 25px;
-    font-size: 1.4rem;
+    padding: 1vw 4vw 1vw 4vw;
+    border-radius: 2vw;
+    font-size: 1.4vw;
 }
 
+@media (max-width: 999px) {
+    .sobreNosTextos h3 {
+        font-size: 4vw;
+    }
+    .sobreNosTextosP1 p {
+        font-size: 2vw;
+        line-height: 2.3vw;
+    }
+    .sobreNosTextosP2 p {
+        font-size: 2vw;
+        line-height: 2.3vw;
+    }
+    .imagensPessoas p {
+        font-size: 1.8vw;
+        line-height: 2.3vw;
+    }
+}

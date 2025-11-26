@@ -59,7 +59,7 @@ header {
 
 .navegacao-site {
     color: white;
-    margin-top: 2vw;
+      max-width: 100%;  margin-top: 2vw;
 }
 
 .navegacao-site ul li a {

@@ -5,9 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 
-a{
-    text-decoration: none; /* remove o sublinhado dos links */
-    color: white; /* altera a cor de todos os links das páginas */
+a {
+    text-decoration: none;
+    /* remove o sublinhado dos links */
+    color: white;
+    /* altera a cor de todos os links das páginas */
 }
 
 body {
@@ -22,36 +24,45 @@ body {
     align-items: center;
     justify-content: center;
 }
+
 .instagram-footer {
     text-align: center;
 }
+
 .instagram-footer h4 {
     font-size: 2rem;
 }
+
 .instagram-footer p {
     margin-top: 15px;
     font-size: 3rem;
 }
+
 .contatos-footer {
     font-family: "ABeeZee", sans-serif;
     text-align: center;
 }
+
 .contatos-footer p {
     margin-bottom: 10px;
 }
+
 .contatos-footer p a {
     text-decoration: underline;
 }
+
 .copyright-footer {
     padding: 20px 0 20px 0;
     text-align: center;
     background-color: #F24B4B;
 }
+
 .linhas-footer {
     margin: 1vw 0 1vw 0;
     display: flex;
     justify-content: center;
 }
+
 .linhas-footer img {
     width: 90vw;
 }
@@ -63,13 +74,16 @@ header {
     margin: 0 2vw;
     background-color: black;
 }
+
 .logo-container {
     display: flex;
     align-items: center;
 }
+
 .logo {
     margin: 0 0 0 1.5vw;
 }
+
 .logo-text {
     color: white;
     font-family: sans-serif;
@@ -77,55 +91,68 @@ header {
     font-size: 1.8vw;
     padding: 0 0 0 0.5vw;
 }
+
 .logo-brain {
     width: 5vw;
     height: 5vw;
     padding: 0.4vw 0 0 0;
     transform: rotate(18.39deg);
 }
+
 .navegacao-site {
     color: white;
     margin-top: 2vw;
 }
+
 .navegacao-site ul li a {
     color: white;
     transition: color 0.3s ease;
 }
+
 .navegacao-site ul li {
     transition: transform 0.3s ease;
 }
+
 .navegacao-site ul li a:hover {
     color: #F24B4B;
 }
+
 .navegacao-site ul li:hover {
     transform: scale(1.1);
 }
-.navegacao-site ul li p:hover{
+
+.navegacao-site ul li p:hover {
     color: #F24B4B;
 }
+
 .navegacao-site ul {
     font-family: "Saira Stencil One", sans-serif;
     display: flex;
     gap: 18px;
     font-size: 1.3vw;
 }
+
 .navegacao-site span {
     text-decoration: underline;
     text-decoration-color: #F24B4B;
 }
+
 .navegacao-site nav ul li ul li {
-      position: relative;
-      margin: 15px 0 15px 0;
-      opacity: 0.7;
-      transition: opacity 0.3s ease, transform 0.3s ease;
+    position: relative;
+    margin: 15px 0 15px 0;
+    opacity: 0.7;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
+
 .navegacao-site nav ul li ul {
-      display: none;
+    display: none;
 }
+
 .navegacao-site nav ul li:hover ul {
-  display: block;
-  position: absolute;
+    display: block;
+    position: absolute;
 }
+
 .navegacao-site nav ul li ul li:hover {
     opacity: 1;
     transform: scale(1.1);
@@ -141,55 +168,50 @@ header {
     background-attachment: scroll;
     padding-bottom: 45vw;
 }
+
 .texto-inicio-banner {
     position: absolute;
-    top: 40%;
-    left: 32%;
-    transform: translate(-50%, -50%);
+    margin: 13vw 8vw;
 }
+
 .banner-inicio h1 {
     font-family: "Saira Stencil One", sans-serif;
     color: #ED1616;
     font-size: 7vw;
 }
+
 .banner-inicio h2 {
     font-family: "Saira Stencil One", sans-serif;
     font-size: 7vw;
-    margin-left: 10vw;
-}
-.redesSociaisBanner {
-    padding: 5px 450px 5px 100px;
-    background: linear-gradient(to right, #ED1616, #ED1616, white);
-    position: absolute;
-    top: 100vh;
-    font-size: 1.8vw;
-    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
-}
-.redesSociaisBanner a {
-    margin: 0 8px 0 8px;
+    margin: 0 0 0 4vw;
 }
 
 /* Equipe */
 .sobreProjetoIntegrante h2 {
-    font-size: 4rem;
-    margin-left: 15vw;
-    margin-bottom: 2vw;
+    font-size: 3vw;
+    text-align: center;
+    margin: 1vw 0;
 }
+
 .sobreProjetoIntegrante img {
-    width: 200px;
+    width: 15vw;
 }
+
 .sobreProjetoIntegrante ul {
     display: flex;
     justify-content: center;
     gap: 5vw;
-    margin-bottom: 35px;
+    margin-bottom: 3vw;
 }
+
 .sobreProjetoIntegrante ul li h3 {
     text-align: center;
-    font-size: 1.3rem;
+    font-size: 2vw;
     margin-top: 7px;
 }
+
 .sobreProjetoIntegrante ul li p {
+    font-size: 1vw;
     text-align: center;
     margin-top: 3px;
     opacity: 0.5;
@@ -201,6 +223,7 @@ header {
     display: flex;
     justify-content: center;
 }
+
 .linhas img {
     width: 90vw;
 }
@@ -209,31 +232,38 @@ header {
 .layoutTexto {
     margin: 0 5vw;
 }
+
 .layoutTexto h2 {
-    font-size: 3rem;
+    font-size: 3vw;
     color: #ED1616;
+    text-align: center;
+    margin: 0 0 1vw 0;
 }
+
 .layoutTexto div {
     display: flex;
     justify-content: center;
     margin: 0 25vw;
     align-items: center;
-    gap: 30px;
+    gap: 3vw;
 }
+
 .layoutTexto div img {
-    width: 300px;
+    width: 20vw;
     background: #F24B4B;
-    padding: 10px 10px;
-    border-radius: 20px;
+    padding: 0.6vw 0.6vw;
+    border-radius: 3vw;
 }
+
 .layoutTexto div p {
     padding: 0;
     margin: 0;
-    font-size: 1.5em;
-    line-height: 1.8rem;
+    font-size: 1.7vw;
+    line-height: 1.8vw;
 }
+
 .layoutTexto p {
-    font-size: 1.5rem;
+    font-size: 1.6vw;
     margin-top: 5vw;
 }
 
@@ -241,27 +271,152 @@ header {
 .coresUsadas {
     margin: 5vw 5vw;
 }
+
 .coresUsadas h2 {
-    font-size: 4rem;
-    margin-bottom: 10px;
+    font-size: 4VW;
+    margin-bottom: 0.2vw;
+    text-align: center;
 }
+
 .coresUsadas p {
-    font-size: 1.3rem;
+    font-size: 1.4VW;
+    text-align: center;
 }
+
 .coresUsadas h2 span {
     color: #ED1616;
 }
+
 .coresUsadas ul {
     display: flex;
     justify-content: center;
     gap: 3vw;
-    margin-top: 30px;
+    margin-top: 2vw;
 }
+
 .coresUsadas ul li img {
-    width: 200px;
+    width: 12vw;
 }
+
 .coresUsadas ul li h3 {
     text-align: center;
-    margin: 8px 0 0 0;
-    font-size: 1.8rem;
+    margin: 0.2vw 0 0 0;
+    font-size: 1.8vw;
+}
+
+.referencias {
+    margin: 2vw 5vw;
+}
+.referencias h2 {
+    font-size: 2.5vw;
+    color: #ED1616;
+    margin-bottom: 1vw;
+}
+.referencias h3 {
+    font-size: 1.5vw;
+    color: #ED1616;
+}
+.referencias p {
+    font-family: sans-serif;
+    font-size: 1vw;
+    line-height: 1.2vw;
+    max-width: 70%;
+}
+.referencias ul li {
+    margin-bottom: 1vw;
+}
+.referencias a {
+    text-decoration: underline solid;
+}
+
+@media (max-width: 999px) {
+    .sobreProjetoIntegrante h2 {
+        font-size: 6vw;
+        text-align: center;
+        margin: 1vw 0;
+    }.sobreProjetoIntegrante h2 {
+    font-size: 6vw;
+    text-align: center;
+    margin: 1vw 0;
+}
+.sobreProjetoIntegrante img {
+    width: 20vw;
+}
+.sobreProjetoIntegrante ul {
+    display: flex;
+    justify-content: center;
+    gap: 5vw;
+    margin-bottom: 3vw;
+}
+.sobreProjetoIntegrante ul li h3 {
+    text-align: center;
+    font-size: 3vw;
+    margin-top: 7px;
+}
+.sobreProjetoIntegrante ul li p {
+    font-size: 2vw;
+    text-align: center;
+    margin-top: 3px;
+    opacity: 0.5;
+}
+
+    .sobreProjetoIntegrante img {
+        width: 20vw;
+    }
+
+    .sobreProjetoIntegrante ul {
+        display: flex;
+        justify-content: center;
+        gap: 5vw;
+        margin-bottom: 3vw;
+    }
+
+    .sobreProjetoIntegrante ul li h3 {
+        text-align: center;
+        font-size: 3vw;
+        margin-top: 7px;
+    }
+
+    .sobreProjetoIntegrante ul li p {
+        font-size: 2vw;
+        text-align: center;
+        margin-top: 3px;
+        opacity: 0.5;
+    }
+    .layoutTexto h2 {
+        font-size: 6vw;
+    }
+    .layoutTexto p {
+        font-size: 2vw;
+        line-height: 2.5vw;
+        text-align: center;
+    }
+    .layoutTexto div p {
+        font-size: 2vw;
+        line-height: 2.5vw;
+        text-align: left;
+    }
+    .coresUsadas h2 {
+        font-size: 5vw;
+    }
+    .coresUsadas p {
+        font-size: 3vw;
+    }
+    .coresUsadas ul li h3 {
+        font-size: 3vw;
+    }
+    
+    .referencias h2 {
+        font-size: 4vw;
+    }
+    .referencias h3 {
+        font-size: 3vw;
+    }
+    .referencias p {
+        font-size: 2vw;
+        line-height: 2.3vw;
+    }
+    .referencias ul li {
+        margin-bottom: 3vw;
+    }
 }

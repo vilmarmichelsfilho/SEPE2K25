@@ -177,18 +177,49 @@
           let restricao = restricaoSelecionada.value;
           let series = (nivel === "iniciante") ? 2 : (nivel === "intermediario") ? 3 : 4;
           let resultado = "";
-          if(restricao == "nao"){
+          if (restricao == "nao") {
             restricao = ""
           }
-          else if(restricao == "ombro"){
-             restricao = "Mas como sua restrição e nos ombros quando você realizar exercícios usando a parte superior do corpo ultilize menos carga e treine acompanhando de um profissinal da área"
+          else if (restricao == "ombro") {
+            restricao = "Mas como sua restrição e nos ombros quando você realizar exercícios usando a parte superior do corpo ultilize menos carga e treine acompanhando de um profissinal da área"
           }
-          else if(restricao == "coluna"){
-          restricao = "Mas como sua restrição e na coluna quando você for treinar ultilize menos cargas e treine acompanhado(a) de um profissional da área"
+          else if (restricao == "coluna") {
+            restricao = "Mas como sua restrição e na coluna quando você for treinar ultilize menos cargas e treine acompanhado(a) de um profissional da área"
           }
-          else if(restricao == "joelho"){
-        restricao = "Mas como sua restrição e nos joelhos quando você realizar exercícios usando a parte inferior do corpo ultilize menos carga e treine acompanhando de um profissinal da área"
+          else if (restricao == "joelho") {
+            restricao = "Mas como sua restrição e nos joelhos quando você realizar exercícios usando a parte inferior do corpo ultilize menos carga e treine acompanhando de um profissinal da área"
           }
+<<<<<<< HEAD
+          else {
+            restricao = "Mas como você possui uma restrição recomendamos você procurar um profissional na área"
+          }
+          if (lugar == "casa") {
+            resultado = `O treino que você deve seguir e o treino em <b>casa</b>.<br>Faça este treino em todos os dias da semana que conseguir e realize <b>${series}</b> séries por exercício.<br>${restricao}.`;
+          }
+          else {
+            if (dias === "1-3") {
+              resultado = `Sua divisão de treino é Fullbody.<br>Faça este treino em todos os dias da semana que conseguir e realize <b>${series}</b> séries por exercício.<br>${restricao}.`;
+            }
+            else if (dias === "4-5") {
+              if (foco === "superiores") {
+                resultado = `Sua divisão de treino é Push, Pull, Legs, Upper.<br>Realize <b>${series}</b> séries por exercício.<br>${restricao}.`;
+              } else if (foco === "inferiores") {
+                resultado = `Sua divisão de treino é Push, Pull, Legs, Lower.<br>Realize <b>${series}</b> séries por exercício.<br>${restricao}.`;
+              } else {
+                resultado = `Sua divisão de treino é Upper/Lower 2x.<br>Realize <b>${series}</b> séries por exercício.<br>${restricao}.`;
+              }
+            }
+            else if (dias === "5-7") {
+              if (foco === "superiores") {
+                resultado = `Sua divisão de treino é Upper/Lower 2x + Upper.<br>Realize <b>${series}</b> séries por exercício.<br>${restricao}.`;
+              } else if (foco === "inferiores") {
+                resultado = `Sua divisão de treino é Upper/Lower 2x + Lower.<br>Realize <b>${series}</b> séries por exercício.<br>${restricao}.`;
+              } else {
+                resultado = `Sua divisão de treino é Push, Pull, Legs, Upper, Lower.<br>Realize <b>${series}</b> séries por exercício.<br>${restricao}.`;
+              }
+            }
+          }
+=======
           else if (restricao == "outros"){
         restricao = "Mas como você possui uma restrição recomendamos você procurar um profissional na área"
           }
@@ -216,6 +247,7 @@
               resultado = `Sua divisão de treino é Push, Pull, Legs, Superior, Inferior.<br>Realize <b>${series}</b> séries por exercício.<br>${restricao}.`;
             }
           }
+>>>>>>> b3e09211bbdc990f0d4ebdd2ec4b0555bb62d2cb
           document.getElementById("resultado").innerHTML = resultado;
         });
       </script>

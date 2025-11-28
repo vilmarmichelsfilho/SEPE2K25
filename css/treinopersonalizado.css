@@ -277,23 +277,23 @@ header {
      font-size: 1rem;
  }
 /*section nav*/
-section.nav{
+.nav{
     padding: 0 6vw 2vw 6vw;
 }
-section.nav nav ul li a{
+.nav nav ul li a{
     display: flex;
     justify-content:start;
     align-items: center;
     line-height: 3.5rem;
 }
-section.nav nav ul li a img {
+.nav nav ul li a img {
     background-color: #c00;
     border-radius: 100px;
     margin: 0 1vw 0 0;
     height: auto;
     max-width: 100%;
 }
-section.nav nav ul li a p {
+.nav nav ul li a p {
  color: #c00;
  font-size: 1.4rem;
  font-weight: bold;
@@ -380,7 +380,7 @@ section.nav nav ul li a p {
  #resultado{
     font-size: 1.8rem;
  }
- section.nav nav ul li a p {
+ .nav nav ul li a p {
     font-size: 2.5rem;
  }
 }

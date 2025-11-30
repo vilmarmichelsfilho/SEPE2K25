@@ -420,3 +420,7 @@ header {
         margin-bottom: 3vw;
     }
 }
+strong{
+    font-weight: bolder; 
+    color: #F24B4B;
+}

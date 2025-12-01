@@ -443,11 +443,9 @@ header {
     .fontes h2 {
         font-size: 4vw;
     }
-    .fontes p {
+    .fontes ul li {
         font-size: 2vw;
         line-height: 2.3vw;
-    }
-    .fontes ul li {
         margin-bottom: 3vw;
     }
 }

@@ -212,9 +212,8 @@ header {
     font-size: 7vw;
 }
 
-.banner-inicio h2 {
-    font-size: 4vw;
-    
+.banner-inicio h1 span {
+    color: white;
 }
 
 /* texto1 */

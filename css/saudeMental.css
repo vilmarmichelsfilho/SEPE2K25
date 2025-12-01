@@ -25,6 +25,9 @@ body {
 }
 
 /* header */
+header p {
+    font-family: "Saira Stencil One", sans-serif;
+}
 header {
     display: flex;
     justify-content: space-between;

@@ -78,8 +78,8 @@ header {
 .navegacao-site ul {
     font-family: "Saira Stencil One", sans-serif;
     display: flex;
-    gap: 18px;
-    font-size: 1.3vw;
+    gap: 1.5vw;
+    font-size: 1.3rem;
 }
 
 .navegacao-site span {
@@ -107,9 +107,6 @@ header {
     opacity: 1;
     transform: scale(1.1);
 }
-
- /*MAIN*/
- 
     /*footer*/
     footer{
  color: white;

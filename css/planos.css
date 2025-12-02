@@ -87,8 +87,8 @@ header {
 .navegacao-site ul {
     font-family: "Saira Stencil One", sans-serif;
     display: flex;
-    gap: 18px;
-    font-size: 1.3vw;
+    gap: 1.5vw;
+    font-size: 1.3rem;
 }
 
 .navegacao-site span {
@@ -116,46 +116,6 @@ header {
     opacity: 1;
     transform: scale(1.1);
 }
-
-/* main-banner */
-.banner-inicio {
-    color: white;
-    text-align: center;
-    background-image: url(../images/bannerInicio.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: scroll;
-    padding-bottom: 45vw;
-}
-
-.texto-inicio-banner {
-    position: absolute;
-    margin: 13vw 8vw;
-}
-
-.banner-inicio h1 {
-    font-family: "Saira Stencil One", sans-serif;
-    color: #ED1616;
-    font-size: 7vw;
-}
-
-.banner-inicio h2 {
-    font-size: 4vw;
-}
-
-.redesSociaisBanner {
-    padding: 5px 450px 5px 100px;
-    background: linear-gradient(to right, #ED1616, #ED1616, white);
-    position: absolute;
-    top: 100vh;
-    font-size: 1.8vw;
-    clip-path: polygon(0 0, 100% 0, 90% 100%, 0% 100%);
-}
-
-.redesSociaisBanner a {
-    margin: 0 8px 0 8px;
-}
-
 /* linhas */
 .linhas {
     margin: 4vw 0 4vw 0;

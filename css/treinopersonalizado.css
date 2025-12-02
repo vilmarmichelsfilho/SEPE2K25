@@ -86,10 +86,9 @@ header {
 .navegacao-site ul {
     font-family: "Saira Stencil One", sans-serif;
     display: flex;
-    gap: 18px;
-    font-size: 1.3vw;
+    gap: 1.5vw;
+    font-size: 1.3rem;
 }
-
 .navegacao-site span {
     text-decoration: underline;
     text-decoration-color: #F24B4B;
@@ -141,6 +140,7 @@ header {
 .banner-inicio h1 span {
     font-size: 4vw;
     color: white;
+    display: block;
 }
 
 .redesSociaisBanner {

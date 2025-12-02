@@ -64,7 +64,7 @@
                     <h3><strong>Dia 17/09/2025</strong></h3>
                     <p>
                         <strong>Todos presentes na aula do dia 17/09/2025</strong> <br>
-                        Vilmar deu continuidade nas páginas de treino personalizado,saúde mental e algumas mudanças na página de início. Igor e Victor terminaram os vídeos que serão colocados no site e editaram. 
+                        Igor deu continuidade nas página de treino personalizado e o Vilmar na página de saúde mental e algumas mudanças na página de início. Igor e Victor terminaram os vídeos que serão colocados no site e editaram. 
                     </p>
                 </li>
                 <li>
@@ -76,7 +76,7 @@
                 <li>
                     <h3><strong>Dia 25/09/2025 a 30/09/2025</strong></h3>
                     <p>
-                        As páginas iniciais, treinos personalizados,sobre nós e as demais páginas foram finalizadas e agora estamos revendo o site para melhorar algumas coisas. Iremos mudar o tamanho dos textos e o tamanho da fonte além de mudar partes do visual do site.
+                        As páginas iniciais, treinos personalizados, sobre nós e as demais páginas foram finalizadas e agora estamos revendo o site para melhorar algumas coisas. Iremos mudar o tamanho dos textos e o tamanho da fonte além de mudar partes do visual do site.
                     </p>
                 </li>
                 <li>
@@ -88,13 +88,13 @@
                 <li>
                     <h3><strong>Dia 11/11/2025 a 20/11/2025</strong></h3>
                     <p>
-                        Padronizamos os textos informativos do site de uma forma que ficassem mais alinhados e conexos com o nosso objetivo.Ajustes nas duas primeiras páginas, e na tipografia do site,tiramos algumas fontes que achamos desnecessárias.Removemos a opção “quantidade de dias” do formulário devido a falta de impacto funcional. Iniciamos a responsividade da página inicial e revimos o formulário e modificamos adicionando novas perguntas e iniciando um novo script.
+                        Padronizamos os textos informativos do site de uma forma que ficassem mais alinhados e conexos com o nosso objetivo. Ajustes nas duas primeiras páginas, e na tipografia do site, tiramos algumas fontes que achamos desnecessárias. Removemos a opção “quantidade de dias” do formulário devido a falta de impacto funcional. Iniciamos a responsividade da página inicial e revimos o formulário e modificamos adicionando novas perguntas e iniciando um novo script.
                     </p>
                 </li>
                 <li>
                     <h3><strong>Dia 22/10/2025  a 25/11/2025</strong></h3>
                     <p>
-                        Fizemos a atualização da navegação do site. Finalizamos a estrutura do formulário principal criando e aplicando a responsividade nela. Corrigimos os links quebrados nas páginas.Melhorias de responsividade  e ajustes gerais nas páginas principais. Aplicados novos ajustes visuais e melhorias no layout. Implementada responsividade na página de alimentação, garantindo melhor adaptação em dispositivos móveis.Publicados vídeos editados, adicionados às páginas correspondentes. Ajustada responsividade da página de lesões físicas.
+                        Fizemos a atualização da navegação do site. O Igor finalizou a estrutura do formulário principal criando e aplicando a responsividade nela. Corrigimos os links quebrados nas páginas. Melhorias de responsividade  e ajustes gerais nas páginas principais. Aplicados novos ajustes visuais e melhorias no layout. Implementada responsividade na página de alimentação, garantindo melhor adaptação em dispositivos móveis. Publicados vídeos editados, adicionados às páginas correspondentes. Ajustada responsividade da página de lesões físicas.
                     </p>
                 </li>
                 <li>

@@ -155,10 +155,10 @@ header {
     font-size: 7vw;
 }
 
-.banner-inicio h2 {
-    font-family: "Saira Stencil One", sans-serif;
-    font-size: 7vw;
+.banner-inicio h1 span {
     margin-left: 5vw;
+    color: white;
+    display: block;
 }
 
 .redesSociaisBanner {

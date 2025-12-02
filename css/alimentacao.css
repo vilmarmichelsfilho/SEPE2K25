@@ -214,6 +214,7 @@ header {
 
 .banner-inicio h1 span {
     color: white;
+    display: block;
 }
 
 /* texto1 */

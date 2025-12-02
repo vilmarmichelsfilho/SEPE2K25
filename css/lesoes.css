@@ -137,12 +137,10 @@
     color: #ED1616;
     font-size: 7vw;
 }
-
-.banner-inicio h2 {
-    font-family: "Saira Stencil One", sans-serif;
-    font-size: 7vw;
+.banner-inicio h1 span{
+    display: block;
+    color: white;
 }
-
  /* linhas */
  .linhas {
      margin: 4vw 0 4vw 0;

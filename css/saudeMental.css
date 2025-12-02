@@ -148,8 +148,10 @@ header {
     font-family: "Saira Stencil One", sans-serif;
     font-size: 7vw;
 }
-
-.banner-inicio h2 span {
+.banner-inicio h1 span.margem-apos-quebra{
+ margin-left: 15vw;
+}
+.banner-inicio h1 span.margem-apos-quebra-cor-diferente  {
     color: white;
 }
 

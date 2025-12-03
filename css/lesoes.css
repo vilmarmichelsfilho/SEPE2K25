@@ -346,24 +346,30 @@
     .principais {
         flex-direction: column;
     }
+    .texto h2 {
+        font-size: 5vw;
+    }
     .principais img {
         margin-top: 5vw;
         margin-bottom: 2vw;
     }
     section.causaslesoes h2 {
-        font-size: 4vw;
+        font-size: 5vw;
     }
     section.lesoescomun h2 {
-        font-size: 4vw;
+        font-size: 5vw;
     }
     section.causaslesoes ul li p {
-        font-size: 2.5vw;
+        font-size: 3vw;
+        line-height: 3vw;
     }
      section.lesoescomun ul li p {
-        font-size: 2.5vw;
+        font-size: 3vw;
+        line-height: 3vw;
      }
      section.texto p {
-        font-size: 2.5vw;
+        font-size: 3vw;
+        line-height: 3vw;
     }
 }
 

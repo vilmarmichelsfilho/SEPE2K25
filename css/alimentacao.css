@@ -308,17 +308,18 @@ header {
 
 @media (max-width: 999px) {
     .texto1 h2 {
-        font-size: 3vw;
+        font-size: 4vw;
     }
     .texto1 p {
-        font-size: 2vw;
+        font-size: 3vw;
+        line-height: 3vw;
     }
     .texto2 p {
-        font-size: 2vw;
-        line-height: 2.3vw;
+        font-size: 3vw;
+        line-height: 3vw;
     }
     .texto3 p {
-        font-size: 2vw;
-        line-height: 2.3vw;
+        font-size: 3vw;
+        line-height: 3vw;
     }
 }

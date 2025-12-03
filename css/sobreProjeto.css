@@ -309,24 +309,29 @@ header {
 .referencias {
     margin: 2vw 5vw;
 }
+
 .referencias h2 {
     font-size: 2.5vw;
     color: #ED1616;
     margin-bottom: 1vw;
 }
+
 .referencias h3 {
     font-size: 1.5vw;
     color: #ED1616;
 }
+
 .referencias p {
     font-family: sans-serif;
     font-size: 1.2vw;
     line-height: 1.2vw;
     max-width: 70%;
 }
+
 .referencias ul li {
     margin-bottom: 1vw;
 }
+
 .referencias a {
     text-decoration: underline solid;
 }
@@ -334,11 +339,13 @@ header {
 .fontes {
     margin: 2vw 5vw;
 }
+
 .fontes h2 {
     font-size: 2.5vw;
     color: #ED1616;
     margin: 0 0 1vw 0;
 }
+
 .fontes ul li {
     font-family: sans-serif;
     font-size: 1.2vw;
@@ -346,6 +353,7 @@ header {
     line-height: 1.2vw;
     margin-bottom: 1vw;
 }
+
 .fontes ul li a {
     color: #F24B4B;
     text-decoration: underline #F24B4B solid;
@@ -356,31 +364,13 @@ header {
         font-size: 6vw;
         text-align: center;
         margin: 1vw 0;
-    }.sobreProjetoIntegrante h2 {
-    font-size: 6vw;
-    text-align: center;
-    margin: 1vw 0;
-}
-.sobreProjetoIntegrante img {
-    width: 20vw;
-}
-.sobreProjetoIntegrante ul {
-    display: flex;
-    justify-content: center;
-    gap: 5vw;
-    margin-bottom: 3vw;
-}
-.sobreProjetoIntegrante ul li h3 {
-    text-align: center;
-    font-size: 3vw;
-    margin-top: 7px;
-}
-.sobreProjetoIntegrante ul li p {
-    font-size: 2vw;
-    text-align: center;
-    margin-top: 3px;
-    opacity: 0.5;
-}
+    }
+
+    .sobreProjetoIntegrante h2 {
+        font-size: 6vw;
+        text-align: center;
+        margin: 1vw 0;
+    }
 
     .sobreProjetoIntegrante img {
         width: 20vw;
@@ -405,53 +395,92 @@ header {
         margin-top: 3px;
         opacity: 0.5;
     }
+
+    .sobreProjetoIntegrante img {
+        width: 20vw;
+    }
+
+    .sobreProjetoIntegrante ul {
+        display: flex;
+        justify-content: center;
+        gap: 5vw;
+        margin-bottom: 3vw;
+    }
+
+    .sobreProjetoIntegrante ul li h3 {
+        text-align: center;
+        font-size: 3vw;
+        margin-top: 7px;
+    }
+
+    .sobreProjetoIntegrante ul li p {
+        font-size: 2vw;
+        text-align: center;
+        margin-top: 3px;
+        opacity: 0.5;
+    }
+
     .layoutTexto h2 {
         font-size: 6vw;
     }
+
     .layoutTexto p {
-        font-size: 2vw;
-        line-height: 2.5vw;
+        font-size: 3vw;
+        line-height: 3vw;
         text-align: center;
     }
+
     .layoutTexto div p {
-        font-size: 2vw;
-        line-height: 2.5vw;
+        font-size: 3vw;
+        line-height: 2.7vw;
         text-align: left;
     }
+
+    .layoutTexto div img {
+        width: 30vw;
+    }
+
     .coresUsadas h2 {
         font-size: 5vw;
     }
+
     .coresUsadas p {
         font-size: 3vw;
     }
+
     .coresUsadas ul li h3 {
         font-size: 3vw;
     }
-    
+
     .referencias h2 {
         font-size: 4vw;
     }
+
     .referencias h3 {
-        font-size: 3vw;
+        font-size: 4vw;
     }
+
     .referencias p {
         font-size: 2vw;
         line-height: 2.3vw;
     }
+
     .referencias ul li {
         margin-bottom: 3vw;
     }
 
     .fontes h2 {
-        font-size: 4vw;
+        font-size: 5vw;
     }
+
     .fontes ul li {
-        font-size: 2vw;
-        line-height: 2.3vw;
+        font-size: 3vw;
+        line-height: 4vw;
         margin-bottom: 3vw;
     }
 }
-strong{
-    font-weight: bolder; 
+
+strong {
+    font-weight: bolder;
     color: #F24B4B;
 }

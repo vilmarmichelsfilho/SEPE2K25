@@ -395,5 +395,9 @@ span#burger{
     }
     span #burgen{
         font-size: 0.8rem;
+        margin: 0 0 0 90vw;
+    }
+    .navegacao-site nav{
+        margin: 0 0 0 70vw;
     }
  }

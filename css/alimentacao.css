@@ -92,7 +92,7 @@ span#burger{
 
 .navegacao-site nav ul li ul li {
     position: relative;
-    margin: 15px 0 15px 0;
+    margin: 1.2vw 0 1.2vw 0;
     opacity: 0.7;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }

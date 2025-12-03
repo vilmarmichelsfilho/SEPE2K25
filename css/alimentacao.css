@@ -55,6 +55,7 @@ header {
 }
 span#burger{
     display: none;
+    font-size: 1rem;
 }
 .navegacao-site ul li a {
     color: white;
@@ -326,6 +327,9 @@ span#burger{
     }
 }
 @media (max-width: 768px) { 
+    body{
+        position: relative;
+    }
     header{
         position: relative;
     }
@@ -342,7 +346,7 @@ span#burger{
 }
 .navegacao-site nav{
     display: none;
-    margin: 0 0 0 82vw;
+    margin: 0 0 0 80vw;
 }
 .navegacao-site ul{
     flex-direction: column;
@@ -352,4 +356,33 @@ span#burger{
     display: block;
     position: relative;
 }
+ }
+ @media (max-width: 600px){
+    .navegacao-site ul{
+        font-size: 1rem;
+    }
+    .navegacao-site nav{
+        margin: 0 0 0 78vw;
+    }
+ }
+  @media (max-width: 500px){
+    .navegacao-site ul{
+        font-size: 0.9rem;
+    }
+    .navegacao-site  nav{
+        margin: 0 0 0 75vw;
+    }
+    span #burger{
+        margin: 0 0 0 92vw;
+    }
+ }
+ @media (max-width: 450px){
+    .navegacao-site ul{
+        font-size: 0.8rem;
+    }
+ }
+ @media (max-width: 400px){
+    .navegacao-site ul{
+        font-size: 0.7rem;
+    }
  }

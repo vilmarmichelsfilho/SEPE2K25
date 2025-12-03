@@ -103,5 +103,11 @@
                         Arthur resolveu os erros gramaticais do site, fez alguns ajustes visuais e terminou a documentação do site. Igor fez a responsividade da página Planos e Vitor arrumou a logo do site. Davi adicionou as fontes na aba sobre projeto, e Vilmar corrigiu erros de validador e alguns erros ortograficos também.
                     </p>
                 </li>
+                        <li>
+                    <h3><strong>Dia 01/12/2025 a 03/12/2025</strong></h3>
+                    <p>
+                        Vilamr corrigiu os últimos erros do validador HTML e CSS de todas as páginas e também corriu alguns erros de responsividade. Igor fez o menu hamburguer e implementou em todas as páginas do site. Nós mudamos a navegação do header e verificamos se havia algum erro textual nas redes sociais. Igor corrigiu erros apontados pelo professor Kennedy, como erro semântico de hierarquia de títulos e substituição da tag i pelo span como estratégia mais moderna.
+                    </p>
+                </li>
             </ul>
         </section>

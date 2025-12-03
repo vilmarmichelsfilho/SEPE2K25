@@ -385,4 +385,15 @@ span#burger{
     .navegacao-site ul{
         font-size: 0.7rem;
     }
+   span #burger{
+    font-size: 0.9rem;
+   }
+ }
+ @media (max-width: 340px){
+    .navegacao-site ul{
+        font-size: 0.65rem;
+    }
+    span #burgen{
+        font-size: 0.8rem;
+    }
  }

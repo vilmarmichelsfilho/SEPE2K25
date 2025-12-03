@@ -327,9 +327,6 @@ span#burger{
     }
 }
 @media (max-width: 768px) { 
-    body{
-        position: relative;
-    }
     header{
         position: relative;
     }

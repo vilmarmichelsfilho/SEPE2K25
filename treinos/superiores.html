@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Varzea Gym - Treino Superiores</title>
+   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Icons" />
     <link rel="stylesheet" href="../css/reset.css">
     <link rel="stylesheet" href="../css/treinosSub.css">
     <link rel="icon" type="image/png" href="../images/logo.png">
@@ -14,21 +15,23 @@
 <body>
     <header>
         <a href="../index.html">
-        <div class="logo-container">
-            <img src="../images/logo.png" alt="Logo Academia" class="logo">
-            <span class="logo-text">VARZEA GYM</span>
-            <img src="../images/brain.png" alt="Brain" class="logo-brain">
-        </div>
+            <div class="logo-container">
+                <img src="../images/logo.png" alt="Logo Academia" class="logo">
+                <span class="logo-text">VARZEA GYM</span>
+                <img src="../images/brain.png" alt="Brain" class="logo-brain">
+            </div>
         </a>
         <div class="navegacao-site">
-            <nav>
+<span  id="burger"  class="material-icons" onclick="clickMenu()">menu</span>
+            <nav id="itens">
                 <ul>
                     <li>
                         <a href="../index.html">Home</a>
                     </li>
                     <li>
-                        <a href="../saudeMental.html">Saúde Mental</a>
+                        <p>Benefícios</p>
                         <ul>
+                            <li><a href="../saudeMental.html">Saúde Mental</a></li>
                             <li>
                                 <a href="../lesoes.html">Lesões</a>
                             </li>
@@ -38,7 +41,7 @@
                         </ul>
                     </li>
                     <li>
-                      <p><span>Treinos</span></p>
+                        <p><span>Treinos</span></p>
                         <ul>
                             <li>
                                 <a href="pull.html">Pull</a>
@@ -67,7 +70,7 @@
                         <a href="../treinopersonalizado.html">Treino Personalizado</a>
                     </li>
                     <li>
-                        <a href="../sobreNos.html">Sobre Nós</a>
+                        <p>Sobre Nós</p>
                         <ul>
                             <li>
                                 <a href="../sobreNos.html">Sobre Nós</a>
@@ -233,6 +236,16 @@
             </p>
         </div>
     </footer>
+    <script>
+        function clickMenu(){
+    if(itens.style.display == `block`){
+        itens.style.display = `none`
+    }
+    else{
+        itens.style.display = `block`
+    }
+        }
+    </script>
 </body>
 
 </html>

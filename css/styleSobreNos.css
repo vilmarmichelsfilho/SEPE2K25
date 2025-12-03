@@ -5,9 +5,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Archivo+Black&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap');
 
-a{
-    text-decoration: none; /* remove o sublinhado dos links */
-    color: white; /* altera a cor de todos os links das páginas */
+a {
+    text-decoration: none;
+    /* remove o sublinhado dos links */
+    color: white;
+    /* altera a cor de todos os links das páginas */
 }
 
 body {
@@ -15,6 +17,7 @@ body {
     background-color: black;
     color: white;
 }
+
 /* header */
 header {
     display: flex;
@@ -22,15 +25,18 @@ header {
     margin: 0 2vw;
     background-color: black;
 }
+
 .logo-container {
     display: flex;
     align-items: center;
 }
+
 .logo {
     margin: 0 0 0 1.5vw;
     width: 4vw;
     height: 4vw;
 }
+
 .logo-text {
     color: white;
     font-family: sans-serif;
@@ -38,55 +44,76 @@ header {
     font-size: 1.8vw;
     padding: 0 0 0 0.5vw;
 }
+
 .logo-brain {
     width: 5vw;
     height: 5vw;
     padding: 0.4vw 0 0 0;
     transform: rotate(18.39deg);
 }
+
 .navegacao-site {
     color: white;
     margin-top: 2vw;
 }
+
+.navegacao-site #burger {
+    display: none;
+}
+
 .navegacao-site ul li a {
     color: white;
     transition: color 0.3s ease;
 }
+
 .navegacao-site ul li {
     transition: transform 0.3s ease;
 }
+
 .navegacao-site ul li a:hover {
     color: #F24B4B;
 }
+
 .navegacao-site ul li:hover {
     transform: scale(1.1);
 }
-.navegacao-site ul li p:hover{
- color: #F24B4B;
+
+.navegacao-site ul li p:hover {
+    color: #F24B4B;
 }
+
 .navegacao-site ul {
     font-family: "Saira Stencil One", sans-serif;
     display: flex;
     gap: 18px;
     font-size: 1.3vw;
 }
+
 .navegacao-site span {
     text-decoration: underline;
     text-decoration-color: #F24B4B;
 }
+
+.navegacao-site nav ul li p {
+    opacity: 1
+}
+
 .navegacao-site nav ul li ul li {
-      position: relative;
-      margin: 15px 0 15px 0;
-      opacity: 0.7;
-      transition: opacity 0.3s ease, transform 0.3s ease;
+    position: relative;
+    margin: 15px 0 15px 0;
+    opacity: 0.7;
+    transition: opacity 0.3s ease, transform 0.3s ease;
 }
+
 .navegacao-site nav ul li ul {
-      display: none;
+    display: none;
 }
+
 .navegacao-site nav ul li:hover ul {
-  display: block;
-  position: absolute;
+    display: block;
+    position: absolute;
 }
+
 .navegacao-site nav ul li ul li:hover {
     opacity: 1;
     transform: scale(1.1);
@@ -98,36 +125,45 @@ header {
     align-items: center;
     justify-content: center;
 }
+
 .instagram-footer {
     text-align: center;
 }
+
 .instagram-footer h4 {
     font-size: 2rem;
 }
+
 .instagram-footer p {
     margin-top: 15px;
     font-size: 3rem;
 }
+
 .contatos-footer {
     font-family: "ABeeZee", sans-serif;
     text-align: center;
 }
+
 .contatos-footer p {
     margin-bottom: 10px;
 }
+
 .contatos-footer p a {
     text-decoration: underline;
 }
+
 .copyright-footer {
     padding: 20px 0 20px 0;
     text-align: center;
     background-color: #F24B4B;
 }
+
 .linhas-footer {
     margin: 1vw 0 1vw 0;
     display: flex;
     justify-content: center;
 }
+
 .linhas-footer img {
     width: 90vw;
 }
@@ -179,6 +215,7 @@ header {
     display: flex;
     justify-content: center;
 }
+
 .linhas img {
     width: 90vw;
 }
@@ -189,12 +226,15 @@ header {
     text-align: center;
     margin-bottom: 0.5vw;
 }
+
 .sobreNosTextos h3 span {
     color: #ED1616;
 }
+
 .sobreNosTextosP1 {
     margin-bottom: 2vw;
 }
+
 .sobreNosTextosP1 p {
     background-color: #2C2C2C;
     margin-right: 10vw;
@@ -205,6 +245,7 @@ header {
     line-height: 1.6vw;
     font-family: "Noto Serif", serif;
 }
+
 .sobreNosTextosP2 p {
     background-color: #2C2C2C;
     margin-left: 10vw;
@@ -215,11 +256,13 @@ header {
     line-height: 1.6vw;
     font-family: "Noto Serif", serif;
 }
+
 .sobreNosTextosP2 {
     margin-bottom: 3vw;
 }
+
 .textosSaudeMental {
-    background-color: #2C2C2C   ;
+    background-color: #2C2C2C;
     margin-left: 11vw;
     padding: 2vw 2vw 2vw 2vw;
     border-top-left-radius: 2vw;
@@ -230,12 +273,15 @@ header {
 .sobreNos {
     margin: 0 2vw 0 2vw;
 }
-.sobreNos h2{
+
+.sobreNos h2 {
     font-size: 3rem;
 }
+
 .sobreNos h2 span {
     color: #ED1616;
 }
+
 .imagensPessoas {
     font-family: "Noto Serif", serif;
     display: flex;
@@ -243,13 +289,16 @@ header {
     align-items: center;
     gap: 4vw;
 }
+
 .imagensPessoas {
     display: flex;
     justify-content: center;
 }
+
 .imagensPessoas img {
     width: 15vw;
 }
+
 .imagensPessoas p {
     font-size: 1.2vw;
     line-height: 1.6vw;
@@ -258,15 +307,18 @@ header {
 .sobreNosSaibaMais {
     margin-bottom: 2vw;
 }
+
 .sobreNosSaibaMais div img {
     width: 50vw;
     height: 20vw;
 }
+
 .sobreNosSaibaMais div {
     margin: 0.8vw 0 1vw 0;
     display: flex;
     justify-content: center;
 }
+
 .sobreNosSaibaMais p a {
     margin-left: 5.2vw;
     background-color: #ED1616;
@@ -279,16 +331,99 @@ header {
     .sobreNosTextos h3 {
         font-size: 5vw;
     }
+
     .sobreNosTextosP1 p {
         font-size: 3vw;
         line-height: 3vw;
     }
+
     .sobreNosTextosP2 p {
         font-size: 3vw;
         line-height: 3vw;
     }
+
     .imagensPessoas p {
         font-size: 3vw;
         line-height: 3vw;
     }
 }
+@media (max-width: 768px){
+    header{
+        position: relative;
+    }
+.navegacao-site span#burger{
+    display: block;
+    color: white;
+    text-decoration: none;
+    text-align: end;
+    cursor: pointer;
+    margin: 0 0 0 92vw;
+    font-size: 1.2rem;
+}
+.navegacao-site{
+    position: absolute;
+}
+.navegacao-site nav{
+    display: none;
+    margin: 0 0 0 80vw;
+}
+.navegacao-site ul{
+    flex-direction: column;
+    font-size: 1.1rem;
+}
+.navegacao-site nav ul li{
+    margin: 1vw 0;
+}
+}
+.navegacao-site nav ul li ul li{
+    margin: 1.3vw 0;
+}
+.navegacao-site nav ul li:hover ul {
+    display: block;
+    position: relative;
+}
+
+ @media (max-width: 600px){
+    .navegacao-site ul{
+        font-size: 1rem;
+    }
+    .navegacao-site nav{
+        margin: 0 0 0 78vw;
+    }
+ }
+  @media (max-width: 500px){
+    .navegacao-site ul{
+        font-size: 0.9rem;
+    }
+    .navegacao-site  nav{
+        margin: 0 0 0 75vw;
+    }
+    span #burger{
+        margin: 0 0 0 90vw;
+    }
+ }
+ @media (max-width: 450px){
+    .navegacao-site ul{
+        font-size: 0.8rem;
+    }
+ }
+ @media (max-width: 400px){
+    .navegacao-site ul{
+        font-size: 0.7rem;
+    }
+   span #burger{
+    font-size: 1rem;
+   }
+ }
+ @media (max-width: 340px){
+    .navegacao-site ul{
+        font-size: 0.65rem;
+    }
+    span #burgen{
+        font-size: 0.9rem;
+        margin: 0 0 0 88vw;
+    }
+    .navegacao-site nav{
+        margin: 0 0 0 70vw;
+    }
+ }

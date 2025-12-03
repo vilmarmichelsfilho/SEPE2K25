@@ -55,7 +55,6 @@ header {
 }
 span#burger{
     display: none;
-    font-size: 1rem;
 }
 .navegacao-site ul li a {
     color: white;
@@ -331,9 +330,6 @@ span#burger{
     header{
         position: relative;
     }
-.logo-container{
-    font-size: 4rem;
-}
  span#burger{
     display: block;
     color: white;

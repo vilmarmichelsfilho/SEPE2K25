@@ -94,19 +94,13 @@
                 <li>
                     <h3><strong>Dia 22/10/2025  a 25/11/2025</strong></h3>
                     <p>
-                        Fizemos a atualização da navegação do site. O Igor finalizou a estrutura do formulário principal criando e aplicando a responsividade nela. Corrigimos os links quebrados nas páginas. Melhorias de responsividade  e ajustes gerais nas páginas principais. Aplicados novos ajustes visuais e melhorias no layout. Implementada responsividade na página de alimentação, garantindo melhor adaptação em dispositivos móveis. Publicados vídeos editados, adicionados às páginas correspondentes. Ajustada responsividade da página de lesões físicas.
+                        Fizemos a atualização da navegação do site. O Igor finalizou a estrutura do formulário principal criando e aplicando a responsividade nela. Corrigimos os links quebrados nas páginas. Melhorias de responsividade  e ajustes gerais nas páginas principais. Aplicados novos ajustes visuais e melhorias no layout. Implementada responsividade na página de alimentação, garantindo melhor adaptação em dispositivos móveis. Publicados vídeos editados, adicionados às páginas correspondentes. Ajustada responsividade da página de lesões físicas. Arthur terminou as atas e fez readme no github.
                     </p>
                 </li>
                 <li>
                     <h3><strong>Dia 26/11/2025 a 30/11/2025</strong></h3>
                     <p>
-                        Arthur resolveu os erros gramaticais do site, fez alguns ajustes visuais e terminou a documentação do site. Igor fez a responsividade da página Planos e Vitor arrumou a logo do site.
-                    </p>
-                </li>
-                <li>
-                    <h3><strong>Dia 01/12/2025</strong></h3>
-                    <p>
-                        Davi adicionou as fontes na aba sobre projeto, e Vilmar corrigiu erros de validador e alguns erros ortograficos também.
+                        Arthur resolveu os erros gramaticais do site, fez alguns ajustes visuais e terminou a documentação do site. Igor fez a responsividade da página Planos e Vitor arrumou a logo do site. Davi adicionou as fontes na aba sobre projeto, e Vilmar corrigiu erros de validador e alguns erros ortograficos também.
                     </p>
                 </li>
             </ul>

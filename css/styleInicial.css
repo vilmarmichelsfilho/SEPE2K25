@@ -59,15 +59,18 @@ header {
 
 .navegacao-site {
     color: white;
-      max-width: 100%;  
-      position: absolute;
+    max-width: 100%;
+    position: absolute;
 }
-.navegacao-site #burger{
+
+.navegacao-site #burger {
     display: none;
 }
-.navegacao-site nav{
+
+.navegacao-site nav {
     margin: 2vw 0 0 48vw;
 }
+
 .navegacao-site ul li a {
     color: white;
     transition: color 0.3s ease;
@@ -84,6 +87,7 @@ header {
 .navegacao-site ul li:hover {
     transform: scale(1.1);
 }
+
 .navegacao-site ul li p:hover {
     color: #F24B4B;
 }
@@ -99,12 +103,14 @@ header {
     text-decoration: underline;
     text-decoration-color: #F24B4B;
 }
-.navegacao-site nav ul p{
+
+.navegacao-site nav ul p {
     opacity: 1;
 }
+
 .navegacao-site nav ul li ul li {
     position: relative;
-    margin: 15px 0 15px 0;
+    margin: 1.3vw 0;
     opacity: 0.7;
     transition: opacity 0.3s ease, transform 0.3s ease;
 }
@@ -112,6 +118,7 @@ header {
 .navegacao-site nav ul li ul {
     display: none;
 }
+
 .navegacao-site nav ul li:hover ul {
     display: block;
     position: absolute;
@@ -150,6 +157,7 @@ header {
     color: white;
     font-family: "Bebas Neue", sans-serif;
 }
+
 .redesSociaisBanner {
     padding: 5px 450px 5px 100px;
     background: linear-gradient(to right, #ED1616, #ED1616, white);
@@ -269,40 +277,52 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;
+    height: auto;
+    width: 100%;
 }
+
 .instagram-footer {
     text-align: center;
 }
+
 .instagram-footer h4 {
     font-size: 2rem;
 }
+
 .instagram-footer p {
     margin-top: 15px;
     font-size: 3rem;
 }
+
 .contatos-footer {
     font-family: "ABeeZee", sans-serif;
     text-align: center;
 }
+
 .contatos-footer p {
     margin-bottom: 10px;
 }
+
 .contatos-footer p a {
     text-decoration: underline;
 }
+
 .copyright-footer {
     padding: 20px 0 20px 0;
     text-align: center;
     background-color: #F24B4B;
 }
+
 .linhas-footer {
     margin: 1vw 0 1vw 0;
     display: flex;
     justify-content: center;
 }
+
 .linhas-footer img {
     width: 90vw;
 }
+
 .textosSaudeMental a {
     text-decoration: underline;
 }
@@ -311,52 +331,104 @@ header {
     .melhoresTreinadores {
         margin: 14% 0 14% 0;
     }
+
+    .sobreNosTextosP2 p {
+        font-size: 1.5rem;
+    }
+
+    .sobreNosTextosP2 h3 {
+        font-size: 1.8rem
+    }
+
+    .melhoresTreinadores h2 {
+        font-size: 1.6rem;
+    }
+
+    .melhoresTreinadores p {
+        font-size: 1.5rem;
+    }
+
+    .melhoresTreinadores ul li p {
+        font-size: 1.1rem
+    }
+
+    .melhoresTreinadores ul li h3 {
+        font-size: 1.3rem;
+    }
+    .logo {
+    width: 6.5vw;
+    height: 6.5vw;
+    margin: 0 0 0 2vw;
+}
+
+.logo-text {
+    font-size: 2.5vw;
+    padding: 0 0 0 1vw;
+}
+
+.logo-brain {
+    width: 8vw;
+    height: 8vw;
+    padding: 0.6vw 0 0 0;
+}
+}
+
+@media (max-width: 768px) {
+    header {
+        position: relative;
+    }
+
+    .navegacao-site span#burger {
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: end;
+        cursor: pointer;
+        margin: 0 0 0 92vw;
+        font-size: 1.2rem;
+    }
+
+    .navegacao-site {
+        position: absolute;
+    }
+
+    .navegacao-site nav {
+        display: none;
+        margin: 0 0 0 80vw;
+    }
+
+    .navegacao-site ul {
+        flex-direction: column;
+        font-size: 1.1rem;
+    }
+
+    .navegacao-site nav ul li {
+        margin: 1vw 0;
+    }
+
     .sobreNosTextosP2 p {
         font-size: 1rem;
     }
-    .sobreNosTextosP2 h3{
+
+    .sobreNosTextosP2 h3 {
         font-size: 1.2rem
     }
-    .melhoresTreinadores h2{
+
+    .melhoresTreinadores h2 {
         font-size: 1.1rem;
     }
+
     .melhoresTreinadores p {
         font-size: 1rem;
     }
+
     .melhoresTreinadores ul li p {
-        font-size: 0.7rem}
-    .melhoresTreinadores ul li h3{
+        font-size: 0.7rem
+    }
+
+    .melhoresTreinadores ul li h3 {
         font-size: 0.9rem;
-    }
-    }
-@media (max-width: 768px){
-    header{
-        position: relative;
-    }
-.navegacao-site span#burger{
-    display: block;
-    color: white;
-    text-decoration: none;
-    text-align: end;
-    cursor: pointer;
-    margin: 0 0 0 92vw;
-    font-size: 1.2rem;
-}
-.navegacao-site{
-    position: absolute;
-}
-.navegacao-site nav{
-    display: none;
-    margin: 0 0 0 80vw;
-}
-.navegacao-site ul{
-    flex-direction: column;
-    font-size: 1.1rem;
-}
-.navegacao-site nav ul li{
-    margin: 1vw 0;
-}
-}
+    }}
 .navegacao-site nav ul li ul li{
     margin: 1.3vw 0;
     position: relative;
@@ -365,60 +437,73 @@ header {
     display: block;
     position: relative;
 }
-
- @media (max-width: 600px){
-    .navegacao-site ul{
+@media (max-width: 600px) {
+    .navegacao-site ul {
         font-size: 1rem;
     }
-    .navegacao-site nav{
+
+    .navegacao-site nav {
         margin: 0 0 0 78vw;
     }
- }
-  @media (max-width: 500px){
-    .navegacao-site ul{
+}
+
+@media (max-width: 500px) {
+    .navegacao-site ul {
         font-size: 0.9rem;
     }
-    .navegacao-site  nav{
+
+    .navegacao-site nav {
         margin: 0 0 0 75vw;
     }
-    span #burger{
+
+    span #burger {
         margin: 0 0 0 90vw;
     }
- }
- @media (max-width: 450px){
-    .navegacao-site ul{
+}
+
+@media (max-width: 450px) {
+    .navegacao-site ul {
         font-size: 0.8rem;
     }
-    .sobreNosTextosP2 p{
+
+    .sobreNosTextosP2 p {
         font-size: 0.8rem;
     }
-    .melhoresTreinadores h2{
+
+    .melhoresTreinadores h2 {
         font-size: 0.9rem;
     }
-    .melhoresTreinadores p{
+
+    .melhoresTreinadores p {
         font-size: 0.8rem;
     }
-    .melhoresTreinadores ul li h3{
+
+    .melhoresTreinadores ul li h3 {
         font-size: 0.7rem
     }
- }
- @media (max-width: 400px){
-    .navegacao-site ul{
+}
+
+@media (max-width: 400px) {
+    .navegacao-site ul {
         font-size: 0.7rem;
     }
-   span #burger{
-    font-size: 1rem;
-   }
- }
- @media (max-width: 340px){
-    .navegacao-site ul{
+
+    span #burger {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 340px) {
+    .navegacao-site ul {
         font-size: 0.65rem;
     }
-    span #burgen{
+
+    span #burgen {
         font-size: 0.9rem;
         margin: 0 0 0 88vw;
     }
-    .navegacao-site nav{
+
+    .navegacao-site nav {
         margin: 0 0 0 70vw;
     }
 }

@@ -28,6 +28,7 @@ body {
 header p {
     font-family: "Saira Stencil One", sans-serif;
 }
+
 header {
     display: flex;
     justify-content: space-between;
@@ -65,12 +66,15 @@ header {
     color: white;
     position: absolute;
 }
-.navegacao-site #burger{
+
+.navegacao-site #burger {
     display: none;
 }
-.navegacao-site nav{
+
+.navegacao-site nav {
     margin: 2vw 0 0 48vw;
 }
+
 .navegacao-site ul li a {
     color: white;
     transition: color 0.3s ease;
@@ -103,9 +107,11 @@ header {
     text-decoration: underline;
     text-decoration-color: #F24B4B;
 }
-.navegacao-site nav ul li p{
+
+.navegacao-site nav ul li p {
     opacity: 1;
 }
+
 .navegacao-site nav ul li ul li {
     position: relative;
     margin: 15px 0 15px 0;
@@ -155,10 +161,12 @@ header {
     font-family: "Saira Stencil One", sans-serif;
     font-size: 7vw;
 }
-.banner-inicio h1 span.margem-apos-quebra{
- margin-left: 15vw;
+
+.banner-inicio h1 span.margem-apos-quebra {
+    margin-left: 15vw;
 }
-.banner-inicio h1 span.margem-apos-quebra-cor-diferente  {
+
+.banner-inicio h1 span.margem-apos-quebra-cor-diferente {
     color: white;
 }
 
@@ -168,7 +176,12 @@ header {
     font-size: 1.9vw;
     line-height: 2.1vw;
 }
-
+.saudeMentalTextos h2{
+    text-align: center; 
+    margin-bottom: 2vw; 
+    color: red; 
+    font-size: 2.5rem;
+}
 .saudeMentalTextos2 h2 {
     font-size: 3vw;
     margin: 0 0 0 12vw;
@@ -263,102 +276,181 @@ iframe {
 
 @media only screen and (max-width: 992px) {
     .saudeMentalTextos p {
-        font-size: 3vw;
-        line-height: 3vw;
+        font-size: 1.5rem;
+        line-height: 2rem;
     }
+
     .saudeMentalTextos2 h2 {
-        font-size: 5vw;
+        font-size: 3rem;
     }
+
     .saudeMentalTextos2 p {
-        font-size: 3vw;
-        line-height: 3vw;
+        font-size: 1.5rem;
+        line-height: 2rem;
         max-width: 50%;
     }
+    iframe {
+    width: 42vw;
+    height: 30vw;
 }
-@media (max-width: 768px){
-    header{
+    .logo {
+        width: 6.5vw;
+        height: 6.5vw;
+        margin: 0 0 0 2vw;
+    }
+
+    .logo-text {
+        font-size: 2.5vw;
+        padding: 0 0 0 1vw;
+    }
+
+    .logo-brain {
+        width: 8vw;
+        height: 8vw;
+        padding: 0.6vw 0 0 0;
+    }
+}
+@media (max-width: 890px){
+    .saudeMentalTextos p {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+        text-align: center;
+    }
+.saudeMentalTextos h2{
+    font-size: 2rem;
+}
+    .saudeMentalTextos2 h2 {
+        font-size: 2rem;
+    }
+
+    .saudeMentalTextos2 p {
+        font-size: 1.25rem;
+        line-height: 1.5rem;
+    }
+}
+@media (max-width: 768px) {
+    header {
         position: relative;
     }
-.navegacao-site span#burger{
-    display: block;
-    color: white;
-    text-decoration: none;
-    text-align: end;
-    cursor: pointer;
-    margin: 0 0 0 92vw;
-    font-size: 1.2rem;
+
+    .navegacao-site span#burger {
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: end;
+        cursor: pointer;
+        margin: 0 0 0 92vw;
+        font-size: 1.2rem;
+    }
+
+    .navegacao-site {
+        position: absolute;
+    }
+
+    .navegacao-site nav {
+        display: none;
+        margin: 0 0 0 80vw;
+    }
+
+    .navegacao-site ul {
+        flex-direction: column;
+        font-size: 1.1rem;
+    }
+
+    .navegacao-site nav ul li {
+        margin: 1vw 0;
+    }
+    .right{
+        flex-direction: column;
+        margin: 0 8vw;
+    }
+    .saudeMentalTextos2{
+        text-align: center;
+    }
+    .saudeMentalTextos2 p{
+        max-width: 100%;
+        font-size: 1.5rem;
+    }
+    .saudeMentalTextos2 h2{
+        text-align: center;
+        margin: 0 8vw;
+    }
+    iframe {
+    width: 64vw;
+    height: 44vw;
+    margin: 0vw 10vw;
 }
-.navegacao-site{
-    position: absolute;
 }
-.navegacao-site nav{
-    display: none;
-    margin: 0 0 0 80vw;
-}
-.navegacao-site ul{
-    flex-direction: column;
-    font-size: 1.1rem;
-}
-.navegacao-site nav ul li{
-    margin: 1vw 0;
-}
-}
-.navegacao-site nav ul li ul li{
+
+.navegacao-site nav ul li ul li {
     margin: 1.3vw 0;
 }
+
 .navegacao-site nav ul li:hover ul {
     display: block;
     position: relative;
 }
 
- @media (max-width: 600px){
-    .navegacao-site ul{
+@media (max-width: 600px) {
+    .navegacao-site ul {
         font-size: 1rem;
     }
-    .navegacao-site nav{
+
+    .navegacao-site nav {
         margin: 0 0 0 78vw;
     }
- }
-  @media (max-width: 500px){
-    .navegacao-site ul{
+}
+
+@media (max-width: 500px) {
+    .navegacao-site ul {
         font-size: 0.9rem;
     }
-    .navegacao-site  nav{
+
+    .navegacao-site nav {
         margin: 0 0 0 75vw;
     }
-    span #burger{
+
+    span #burger {
         margin: 0 0 0 90vw;
     }
- }
- @media (max-width: 450px){
-    .navegacao-site ul{
+}
+
+@media (max-width: 450px) {
+    .navegacao-site ul {
         font-size: 0.8rem;
     }
- }
- @media (max-width: 400px){
-    .navegacao-site ul{
+}
+
+@media (max-width: 400px) {
+    .navegacao-site ul {
         font-size: 0.7rem;
     }
-   span #burger{
-    font-size: 1rem;
-   }
- }
- @media (max-width: 340px){
-    .navegacao-site ul{
+
+    span #burger {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 340px) {
+    .navegacao-site ul {
         font-size: 0.65rem;
     }
-    span #burgen{
+
+    span #burgen {
         font-size: 0.9rem;
         margin: 0 0 0 88vw;
     }
-    .navegacao-site nav{
+
+    .navegacao-site nav {
         margin: 0 0 0 70vw;
     }
- }
+}
+
 strong {
     font-weight: bold;
     color: red;
 }
+
 /* linhas */
 .linhas {
     margin: 4vw 0 4vw 0;

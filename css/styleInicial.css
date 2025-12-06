@@ -429,6 +429,7 @@ header {
     .melhoresTreinadores ul li h3 {
         font-size: 0.9rem;
     }}
+
 .navegacao-site nav ul li ul li{
     margin: 1.3vw 0;
     position: relative;
@@ -437,6 +438,7 @@ header {
     display: block;
     position: relative;
 }
+
 @media (max-width: 600px) {
     .navegacao-site ul {
         font-size: 1rem;

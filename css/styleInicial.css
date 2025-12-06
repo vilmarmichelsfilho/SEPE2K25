@@ -59,10 +59,14 @@ header {
 
 .navegacao-site {
     color: white;
-      max-width: 100%;  margin-top: 2vw;
+      max-width: 100%;  
+      position: absolute;
 }
 .navegacao-site #burger{
     display: none;
+}
+.navegacao-site nav{
+    margin: 2vw 0 0 48vw;
 }
 .navegacao-site ul li a {
     color: white;
@@ -80,7 +84,6 @@ header {
 .navegacao-site ul li:hover {
     transform: scale(1.1);
 }
-
 .navegacao-site ul li p:hover {
     color: #F24B4B;
 }
@@ -109,7 +112,6 @@ header {
 .navegacao-site nav ul li ul {
     display: none;
 }
-
 .navegacao-site nav ul li:hover ul {
     display: block;
     position: absolute;
@@ -349,6 +351,7 @@ header {
 }
 .navegacao-site nav ul li ul li{
     margin: 1.3vw 0;
+    position: relative;
 }
 .navegacao-site nav ul li:hover ul {
     display: block;

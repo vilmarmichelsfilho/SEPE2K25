@@ -51,10 +51,13 @@ header {
 
 .navegacao-site {
     color: white;
-    margin-top: 2vw;
+    position: absolute;
 }
 span#burger{
     display: none;
+}
+.navegacao-site nav{
+    margin: 2vw 0 0 48vw;
 }
 .navegacao-site ul li a {
     color: white;

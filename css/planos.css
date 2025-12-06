@@ -60,10 +60,14 @@ header {
 
 .navegacao-site {
     color: white;
-      max-width: 100%;  margin-top: 2vw;
+      max-width: 100%;
+    position: absolute;
 }
 span#burger{
     display: none;
+}
+.navegacao-site nav{
+    margin: 2vw 0 0 48vw;
 }
 .navegacao-site ul li a {
     color: white;

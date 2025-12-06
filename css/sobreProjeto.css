@@ -426,14 +426,14 @@ header {
     }
 
     .layoutTexto p {
-        font-size: 3vw;
-        line-height: 3vw;
+        font-size: 3.3vw;
+        line-height: 3.3vw;
         text-align: center;
     }
 
     .layoutTexto div p {
-        font-size: 3vw;
-        line-height: 2.7vw;
+        font-size: 3.3vw;
+        line-height: 3.3vw;
         text-align: left;
     }
 

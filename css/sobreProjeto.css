@@ -374,7 +374,7 @@ header {
 }
 
 @media (max-width: 999px) {
-    .logo {
+     .logo {
         width: 6.5vw;
         height: 6.5vw;
         margin: 0 0 0 2vw;
@@ -390,7 +390,6 @@ header {
         height: 8vw;
         padding: 0.6vw 0 0 0;
     }
-
     .sobreProjetoIntegrante h2 {
         font-size: 6vw;
         text-align: center;
@@ -426,14 +425,14 @@ header {
     }
 
     .layoutTexto p {
-        font-size: 3.3vw;
-        line-height: 3.3vw;
+        font-size: 3vw;
+        line-height: 3vw;
         text-align: center;
     }
 
     .layoutTexto div p {
-        font-size: 3.3vw;
-        line-height: 3.3vw;
+        font-size: 3vw;
+        line-height: 2.7vw;
         text-align: left;
     }
 
@@ -549,11 +548,9 @@ strong {
         font-size: 12vw;
         margin: 2vw 0;
     }
-
     .sobreProjetoIntegrante img {
         width: 40vw;
     }
-
     .sobreProjetoIntegrante ul li h3 {
         font-size: 6vw;
         margin-top: 7px;
@@ -563,23 +560,20 @@ strong {
         font-size: 4vw;
         margin-top: 6px;
     }
-
-    .layoutTexto h2 {
+      .layoutTexto h2 {
         font-size: 6vw;
     }
-
-    .layoutTexto div {
+    .layoutTexto div{
         margin: 0 10vw;
     }
-
     .layoutTexto p {
         font-size: 4vw;
         line-height: 4vw;
     }
 
     .layoutTexto div p {
-        font-size: 3vw;
-        line-height: 3.3vw;
+        font-size: 4vw;
+        line-height: 4vw;
         text-align: left;
     }
 

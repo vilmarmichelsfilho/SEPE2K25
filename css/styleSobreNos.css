@@ -273,7 +273,7 @@ header {
 
 /* Sobre nós */
 .sobreNos {
-    margin: 0 2vw 0 2vw;
+    margin: 0 8vw 0 8vw;
 }
 
 .sobreNos h2 {
@@ -283,27 +283,11 @@ header {
 .sobreNos h2 span {
     color: #ED1616;
 }
-
-.imagensPessoas {
-    font-family: "Noto Serif", serif;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 4vw;
-}
-
-.imagensPessoas {
-    display: flex;
-    justify-content: center;
-}
-
-.imagensPessoas img {
-    width: 15vw;
-}
-
-.imagensPessoas p {
+.sobreNos p {
     font-size: 1.2vw;
     line-height: 1.6vw;
+    font-family: "Noto Serif", serif;
+    text-align: center;
 }
 
 .sobreNosSaibaMais {
@@ -344,9 +328,25 @@ header {
         line-height: 3vw;
     }
 
-    .imagensPessoas p {
+    .sobreNos p {
         font-size: 3vw;
         line-height: 3vw;
+    }
+    .logo {
+        width: 6.5vw;
+        height: 6.5vw;
+        margin: 0 0 0 2vw;
+    }
+
+    .logo-text {
+        font-size: 2.5vw;
+        padding: 0 0 0 1vw;
+    }
+
+    .logo-brain {
+        width: 8vw;
+        height: 8vw;
+        padding: 0.6vw 0 0 0;
     }
 }
 @media (max-width: 768px){

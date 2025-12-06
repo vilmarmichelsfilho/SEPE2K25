@@ -339,7 +339,7 @@ span#burger{
     text-decoration: none;
     text-align: end;
     cursor: pointer;
-    margin: 0 0 0 92vw;
+    margin: 1vw 0 0 92vw;
     font-size: 1.2rem;
 }
 .navegacao-site{
@@ -372,6 +372,38 @@ span#burger{
         margin: 0 0 0 78vw;
     }
  }
+ @media (max-width: 576px) {
+    .texto1 h2 {
+        font-size: 5vw;
+        text-align: center;
+    }
+    .texto1 p {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+    .texto2 h2{
+        font-size: 5vw;
+        text-align: center;
+    }
+    .texto2 p {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+    .texto2 img{
+        margin: 2vw 15vw;
+    }
+    .texto3 h2{
+        font-size: 5vw;
+        text-align: center;
+    }
+    .texto3 p {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+    .texto3 img{
+        margin: 2vw 15vw;
+    }
+}
   @media (max-width: 500px){
     .navegacao-site ul{
         font-size: 0.9rem;
@@ -380,7 +412,7 @@ span#burger{
         margin: 0 0 0 75vw;
     }
     span #burger{
-        margin: 0 0 0 90vw;
+        margin: 1vw 0 0 90vw;
     }
  }
  @media (max-width: 450px){
@@ -402,7 +434,7 @@ span#burger{
     }
     span #burgen{
         font-size: 0.9rem;
-        margin: 0 0 0 88vw;
+        margin: 1vw 0 0 88vw;
     }
     .navegacao-site nav{
         margin: 0 0 0 70vw;

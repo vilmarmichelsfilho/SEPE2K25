@@ -61,12 +61,15 @@ header {
     color: white;
     position: absolute;
 }
-.navegacao-site #burger{
+
+.navegacao-site #burger {
     display: none;
 }
-.navegacao-site nav{
+
+.navegacao-site nav {
     margin: 2vw 0 0 48vw;
 }
+
 .navegacao-site ul li a {
     color: white;
     transition: color 0.3s ease;
@@ -94,13 +97,16 @@ header {
     gap: 1.5vw;
     font-size: 1.3vw;
 }
+
 .navegacao-site span {
     text-decoration: underline;
     text-decoration-color: #F24B4B;
 }
-.navegacao-site p{
+
+.navegacao-site p {
     opacity: 1;
 }
+
 .navegacao-site nav ul li ul li {
     position: relative;
     margin: 15px 0 15px 0;
@@ -175,123 +181,132 @@ header {
     max-width: 100%;
     width: 95%;
 }
- /*formulario*/
- main {
-     font-family: Arial, sans-serif;
-     background: black;
-     color: #fff;
-     min-height: 100vh;
- }
- .title{
+
+/*formulario*/
+main {
+    font-family: Arial, sans-serif;
+    background: black;
+    color: #fff;
+    min-height: 100vh;
+}
+
+.title {
     text-align: center;
     color: #c00;
     font-size: 2rem;
     font-family: "Saira Stencil One", sans-serif;
     margin: 0 0 3vw 0;
- }
- .formulario {
-     display: flex;
-     justify-content: center;
- }
+}
 
- .container {
-     background: #fdfdfd;
-     color: #000;
-     padding: 30px;
-     border-radius: 1vw;
-     width: 35vw;
-     box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
- }
- .container h2 {
-     text-align: center;
-     margin-bottom: 1.5vw;
-     color: #c00;
-     font-family: "Saira Stencil One", sans-serif;
-     font-size: 1.2rem;
- }
- .pergunta p span{
+.formulario {
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background: #fdfdfd;
+    color: #000;
+    padding: 30px;
+    border-radius: 1vw;
+    width: 35vw;
+    box-shadow: 0 0 1vw rgba(0, 0, 0, 0.5);
+}
+
+.container h2 {
+    text-align: center;
+    margin-bottom: 1.5vw;
+    color: #c00;
+    font-family: "Saira Stencil One", sans-serif;
+    font-size: 1.2rem;
+}
+
+.pergunta p span {
     color: #ED1616;
     font-weight: bold;
     font-size: 1.1rem;
     font-family: "Saira Stencil One", sans-serif;
- }
- .pergunta {
-     margin-bottom: 1.5vw;
- }
+}
 
- .pergunta p {
-     font-weight: bold;
-     margin-bottom: 0.7vw;
- }
+.pergunta {
+    margin-bottom: 1.5vw;
+}
 
- .opcoes {
-     display: flex;
-     gap: 1vw;
-     flex-wrap: wrap;
- }
+.pergunta p {
+    font-weight: bold;
+    margin-bottom: 0.7vw;
+}
 
- .pergunta label {
-     display: flex;
-     align-items: center;
-     gap: 0.5vw;
-     cursor: pointer;
-     font-size: 1rem;
- }
+.opcoes {
+    display: flex;
+    gap: 1vw;
+    flex-wrap: wrap;
+}
 
- input[type="radio"] {
-     appearance: none;
-     -webkit-appearance: none;
-     width: 18px;
-     height: 18px;
-     border: 2px solid #000;
-     border-radius: 50%;
-     display: grid;
-     place-content: center;
- }
+.pergunta label {
+    display: flex;
+    align-items: center;
+    gap: 0.5vw;
+    cursor: pointer;
+    font-size: 1rem;
+}
 
- input[type="radio"]::before {
-     content: "";
-     width: 10px;
-     height: 10px;
-     border-radius: 50%;
-     transform: scale(0);
-     transition: 0.2s ease-in-out;
-     background-color: red;
- }
+input[type="radio"] {
+    appearance: none;
+    -webkit-appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #000;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+}
 
- input[type="radio"]:checked::before {
-     transform: scale(1);
- }
+input[type="radio"]::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 0.2s ease-in-out;
+    background-color: red;
+}
 
- button {
-     display: block;
-     margin: 20px auto 0;
-     padding: 10px 25px;
-     border: none;
-     border-radius: 30px;
-     background: #c00;
-     color: #fff;
-     font-weight: bold;
-     cursor: pointer;
- }
+input[type="radio"]:checked::before {
+    transform: scale(1);
+}
 
- #resultado {
-     margin-top: 20px;
-     font-weight: bold;
-     text-align: center;
-     color: #111;
-     font-size: 1rem;
- }
+button {
+    display: block;
+    margin: 20px auto 0;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 30px;
+    background: #c00;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
+    text-align: center;
+    color: #111;
+    font-size: 1rem;
+}
+
 /*section nav*/
-.nav{
+.nav {
     padding: 0 6vw 2vw 6vw;
 }
-.nav nav ul li a{
+
+.nav nav ul li a {
     display: flex;
-    justify-content:start;
+    justify-content: start;
     align-items: center;
     line-height: 3.5rem;
 }
+
 .nav nav ul li a img {
     background-color: #c00;
     border-radius: 100px;
@@ -299,14 +314,16 @@ header {
     height: auto;
     max-width: 100%;
 }
+
 .nav nav ul li a p {
- color: #c00;
- font-size: 1.4rem;
- font-weight: bold;
- font-family: "Post No Bills Colombo ExtraBold";
+    color: #c00;
+    font-size: 1.4rem;
+    font-weight: bold;
+    font-family: "Post No Bills Colombo ExtraBold";
 }
+
 /*Footer*/
- .logo-container-footer {
+.logo-container-footer {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -353,126 +370,180 @@ header {
 .linhas-footer img {
     width: 90vw;
 }
+
 .textosSaudeMental a {
     text-decoration: underline;
 }
+
 @media (min-width: 992px) {
     section.nav nav ul li a p {
- font-size: 2rem;
+        font-size: 2rem;
+    }
+
+    .title h2 {
+        font-size: 4rem;
+    }
+
+    .container h2 {
+        font-size: 2.5rem;
+    }
+
+    .pergunta p span {
+        font-size: 2rem;
+    }
+
+    .pergunta p {
+        font-size: 1.7rem;
+    }
+
+    .pergunta label {
+        font-size: 1.8rem;
+    }
+
+    button {
+        margin: 30px auto 0;
+        padding: 15px 35px;
+        border-radius: 30px;
+        font-size: 1.5rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+
+    #resultado {
+        font-size: 1.8rem;
+    }
+
+    .nav nav ul li a p {
+        font-size: 2.5rem;
+    }
+
+    .logo {
+        width: 6.5vw;
+        height: 6.5vw;
+        margin: 0 0 0 2vw;
+    }
+
+    .logo-text {
+        font-size: 2.5vw;
+        padding: 0 0 0 1vw;
+    }
+
+    .logo-brain {
+        width: 8vw;
+        height: 8vw;
+        padding: 0.6vw 0 0 0;
+    }
 }
-.title h2{
-    font-size: 4rem;
-}
-.container h2{
-    font-size: 2.5rem;
-}
-.pergunta p span{
-    font-size: 2rem;
-}
-.pergunta p{
-    font-size: 1.7rem;
-}
-.pergunta label{
-    font-size: 1.8rem;
-}
- button {
-     margin: 30px auto 0;
-     padding: 15px 35px;
-     border-radius: 30px;
-     font-size: 1.5rem;
-     font-weight: bold;
-     cursor: pointer;
- }
- #resultado{
-    font-size: 1.8rem;
- }
- .nav nav ul li a p {
-    font-size: 2.5rem;
- }
-}
-@media (max-width: 768px){
-    header{
+
+@media (max-width: 768px) {
+    header {
         position: relative;
     }
-.navegacao-site span#burger{
-    display: block;
-    color: white;
-    text-decoration: none;
-    text-align: end;
-    cursor: pointer;
-    margin: 0 0 0 92vw;
-    font-size: 1.2rem;
+
+    .navegacao-site span#burger {
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: end;
+        cursor: pointer;
+        margin: 0 0 0 92vw;
+        font-size: 1.2rem;
+    }
+
+    .navegacao-site {
+        position: absolute;
+    }
+
+    .navegacao-site nav {
+        display: none;
+        margin: 0 0 0 80vw;
+    }
+
+    .navegacao-site ul {
+        flex-direction: column;
+        font-size: 1.1rem;
+    }
+
+    .navegacao-site nav ul li {
+        margin: 1vw 0;
+    }
 }
-.navegacao-site{
-    position: absolute;
-}
-.navegacao-site nav{
-    display: none;
-    margin: 0 0 0 80vw;
-}
-.navegacao-site ul{
-    flex-direction: column;
-    font-size: 1.1rem;
-}
-.navegacao-site nav ul li{
-    margin: 1vw 0;
-}
-}
-.navegacao-site nav ul li ul li{
+
+.navegacao-site nav ul li ul li {
     margin: 1.3vw 0;
 }
+
 .navegacao-site nav ul li:hover ul {
     display: block;
     position: relative;
 }
 
- @media (max-width: 600px){
-    .navegacao-site ul{
+@media (max-width: 600px) {
+    .navegacao-site ul {
         font-size: 1rem;
     }
-    .navegacao-site nav{
+
+    .navegacao-site nav {
         margin: 0 0 0 78vw;
-    }
- }
-@media (max-width: 576px){
-    .container{
-width: 100vw;
     }
 }
 
-  @media (max-width: 500px){
-    .navegacao-site ul{
+@media (max-width: 576px) {
+    .container {
+        width: 100vw;
+    }
+    .opcoes {
+        flex-direction: column; 
+        gap: 10px; 
+    }
+
+    .pergunta label {
+        width: 100%;
+        margin-bottom: 5px;
+    }
+}
+
+@media (max-width: 500px) {
+    .navegacao-site ul {
         font-size: 0.9rem;
     }
-    .navegacao-site  nav{
+
+    .navegacao-site nav {
         margin: 0 0 0 75vw;
     }
-    span #burger{
+
+    span #burger {
         margin: 0 0 0 90vw;
     }
- }
- @media (max-width: 450px){
-    .navegacao-site ul{
+}
+
+@media (max-width: 450px) {
+    .navegacao-site ul {
         font-size: 0.8rem;
     }
- }
- @media (max-width: 400px){
-    .navegacao-site ul{
+}
+
+@media (max-width: 400px) {
+    .navegacao-site ul {
         font-size: 0.7rem;
     }
-   span #burger{
-    font-size: 1rem;
-   }
- }
- @media (max-width: 340px){
-    .navegacao-site ul{
+
+    span #burger {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 340px) {
+    .navegacao-site ul {
         font-size: 0.65rem;
     }
-    span #burgen{
+
+    span #burgen {
         font-size: 0.9rem;
         margin: 0 0 0 88vw;
     }
-    .navegacao-site nav{
+
+    .navegacao-site nav {
         margin: 0 0 0 70vw;
     }
- }
+}

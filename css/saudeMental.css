@@ -364,6 +364,9 @@ iframe {
         flex-direction: column;
         margin: 0 8vw;
     }
+    .saudeMentalTextos{
+        font-size: 1.5rem;
+    }
     .saudeMentalTextos2{
         text-align: center;
     }

@@ -104,12 +104,15 @@ header {
     color: white;
     position: absolute;
 }
-.navegacao-site #burger{
+
+.navegacao-site #burger {
     display: none;
 }
-.navegacao-site nav{
+
+.navegacao-site nav {
     margin: 2vw 0 0 48vw;
 }
+
 .navegacao-site ul li a {
     color: white;
     transition: color 0.3s ease;
@@ -142,9 +145,11 @@ header {
     text-decoration: underline;
     text-decoration-color: #F24B4B;
 }
-.navegacao-site p{
+
+.navegacao-site p {
     opacity: 1;
 }
+
 .navegacao-site nav ul li ul li {
     position: relative;
     margin: 15px 0 15px 0;
@@ -252,13 +257,14 @@ header {
 .layoutTexto div {
     display: flex;
     justify-content: center;
-    margin: 0 25vw;
+    margin: 0 20vw;
     align-items: center;
     gap: 3vw;
 }
 
 .layoutTexto div img {
     width: 20vw;
+    height: auto;
     background: #F24B4B;
     padding: 0.6vw 0.6vw;
     border-radius: 3vw;
@@ -267,13 +273,14 @@ header {
 .layoutTexto div p {
     padding: 0;
     margin: 0;
-    font-size: 1.7vw;
-    line-height: 1.8vw;
+    font-size: 2.15vw;
+    line-height: 2.2vw;
 }
 
 .layoutTexto p {
-    font-size: 1.6vw;
-    margin-top: 5vw;
+    font-size: 2.2vw;
+    text-align: center;
+    margin: 5vw 15vw 0 15vw;
 }
 
 /* cores */
@@ -367,40 +374,27 @@ header {
 }
 
 @media (max-width: 999px) {
-    .sobreProjetoIntegrante h2 {
-        font-size: 6vw;
-        text-align: center;
-        margin: 1vw 0;
+    .logo {
+        width: 6.5vw;
+        height: 6.5vw;
+        margin: 0 0 0 2vw;
+    }
+
+    .logo-text {
+        font-size: 2.5vw;
+        padding: 0 0 0 1vw;
+    }
+
+    .logo-brain {
+        width: 8vw;
+        height: 8vw;
+        padding: 0.6vw 0 0 0;
     }
 
     .sobreProjetoIntegrante h2 {
         font-size: 6vw;
         text-align: center;
         margin: 1vw 0;
-    }
-
-    .sobreProjetoIntegrante img {
-        width: 20vw;
-    }
-
-    .sobreProjetoIntegrante ul {
-        display: flex;
-        justify-content: center;
-        gap: 5vw;
-        margin-bottom: 3vw;
-    }
-
-    .sobreProjetoIntegrante ul li h3 {
-        text-align: center;
-        font-size: 3vw;
-        margin-top: 7px;
-    }
-
-    .sobreProjetoIntegrante ul li p {
-        font-size: 2vw;
-        text-align: center;
-        margin-top: 3px;
-        opacity: 0.5;
     }
 
     .sobreProjetoIntegrante img {
@@ -491,83 +485,189 @@ strong {
     font-weight: bolder;
     color: #F24B4B;
 }
-@media (max-width: 768px){
-    header{
+
+@media (max-width: 768px) {
+    header {
         position: relative;
     }
-.navegacao-site span#burger{
-    display: block;
-    color: white;
-    text-decoration: none;
-    text-align: end;
-    cursor: pointer;
-    margin: 0 0 0 92vw;
-    font-size: 1.2rem;
+
+    .navegacao-site span#burger {
+        display: block;
+        color: white;
+        text-decoration: none;
+        text-align: end;
+        cursor: pointer;
+        margin: 0 0 0 92vw;
+        font-size: 1.2rem;
+    }
+
+    .navegacao-site {
+        position: absolute;
+    }
+
+    .navegacao-site nav {
+        display: none;
+        margin: 0 0 0 80vw;
+    }
+
+    .navegacao-site ul {
+        flex-direction: column;
+        font-size: 1.1rem;
+    }
+
+    .navegacao-site nav ul li {
+        margin: 1vw 0;
+    }
 }
-.navegacao-site{
-    position: absolute;
-}
-.navegacao-site nav{
-    display: none;
-    margin: 0 0 0 80vw;
-}
-.navegacao-site ul{
-    flex-direction: column;
-    font-size: 1.1rem;
-}
-.navegacao-site nav ul li{
-    margin: 1vw 0;
-}
-}
-.navegacao-site nav ul li ul li{
+
+.navegacao-site nav ul li ul li {
     margin: 1.3vw 0;
 }
+
 .navegacao-site nav ul li:hover ul {
     display: block;
     position: relative;
 }
 
- @media (max-width: 600px){
-    .navegacao-site ul{
+@media (max-width: 600px) {
+    .navegacao-site ul {
         font-size: 1rem;
     }
-    .navegacao-site nav{
+
+    .navegacao-site nav {
         margin: 0 0 0 78vw;
     }
- }
-  @media (max-width: 500px){
-    .navegacao-site ul{
+}
+
+@media (max-width: 576px) {
+    .sobreProjetoIntegrante ul {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .sobreProjetoIntegrante h2 {
+        font-size: 12vw;
+        margin: 2vw 0;
+    }
+
+    .sobreProjetoIntegrante img {
+        width: 40vw;
+    }
+
+    .sobreProjetoIntegrante ul li h3 {
+        font-size: 6vw;
+        margin-top: 7px;
+    }
+
+    .sobreProjetoIntegrante ul li p {
+        font-size: 4vw;
+        margin-top: 6px;
+    }
+
+    .layoutTexto h2 {
+        font-size: 6vw;
+    }
+
+    .layoutTexto div {
+        margin: 0 10vw;
+    }
+
+    .layoutTexto p {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+
+    .layoutTexto div p {
+        font-size: 3vw;
+        line-height: 3.3vw;
+        text-align: left;
+    }
+
+    .layoutTexto div img {
+        width: 40vw;
+    }
+
+    .coresUsadas h2 {
+        font-size: 76w;
+    }
+
+    .coresUsadas p {
+        font-size: 4vw;
+    }
+
+    .coresUsadas ul li h3 {
+        font-size: 4vw;
+    }
+
+    .referencias h2 {
+        font-size: 5vw;
+    }
+
+    .referencias h3 {
+        font-size: 5vw;
+    }
+
+    .referencias p {
+        font-size: 3vw;
+        line-height: 2.7vw;
+    }
+
+    .referencias ul li {
+        margin-bottom: 4vw;
+    }
+
+    .fontes h2 {
+        font-size: 6vw;
+    }
+
+    .fontes ul li {
+        font-size: 4vw;
+        line-height: 5vw;
+        margin-bottom: 4vw;
+    }
+}
+
+@media (max-width: 500px) {
+    .navegacao-site ul {
         font-size: 0.9rem;
     }
-    .navegacao-site  nav{
+
+    .navegacao-site nav {
         margin: 0 0 0 75vw;
     }
-    span #burger{
+
+    span #burger {
         margin: 0 0 0 90vw;
     }
- }
- @media (max-width: 450px){
-    .navegacao-site ul{
+}
+
+@media (max-width: 450px) {
+    .navegacao-site ul {
         font-size: 0.8rem;
     }
- }
- @media (max-width: 400px){
-    .navegacao-site ul{
+}
+
+@media (max-width: 400px) {
+    .navegacao-site ul {
         font-size: 0.7rem;
     }
-   span #burger{
-    font-size: 1rem;
-   }
- }
- @media (max-width: 340px){
-    .navegacao-site ul{
+
+    span #burger {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 340px) {
+    .navegacao-site ul {
         font-size: 0.65rem;
     }
-    span #burgen{
+
+    span #burgen {
         font-size: 0.9rem;
         margin: 0 0 0 88vw;
     }
-    .navegacao-site nav{
+
+    .navegacao-site nav {
         margin: 0 0 0 70vw;
     }
- }
+}

@@ -339,8 +339,8 @@ span#burger{
     text-decoration: none;
     text-align: end;
     cursor: pointer;
-    margin: 1vw 0 0 92vw;
-    font-size: 1.2rem;
+    margin: 2vw 0 0 90vw;
+    font-size: 1.3rem;
 }
 .navegacao-site{
     position: absolute;
@@ -412,7 +412,7 @@ span#burger{
         margin: 0 0 0 75vw;
     }
     span #burger{
-        margin: 1vw 0 0 90vw;
+        margin: 2vw 0 0 88vw;
     }
  }
  @media (max-width: 450px){
@@ -425,7 +425,7 @@ span#burger{
         font-size: 0.7rem;
     }
    span #burger{
-    font-size: 1rem;
+    font-size: 1.2rem;
    }
  }
  @media (max-width: 340px){
@@ -433,8 +433,8 @@ span#burger{
         font-size: 0.65rem;
     }
     span #burgen{
-        font-size: 0.9rem;
-        margin: 1vw 0 0 88vw;
+        font-size: 1.1rem;
+        margin: 2vw 0 0 87vw;
     }
     .navegacao-site nav{
         margin: 0 0 0 70vw;

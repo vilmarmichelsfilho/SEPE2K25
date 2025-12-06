@@ -446,8 +446,8 @@ button {
         text-decoration: none;
         text-align: end;
         cursor: pointer;
-        margin: 0 0 0 92vw;
-        font-size: 1.2rem;
+        margin: 2vw 0 0 90vw;
+        font-size: 1.4rem;
     }
 
     .navegacao-site {
@@ -513,7 +513,7 @@ button {
     }
 
     span #burger {
-        margin: 0 0 0 90vw;
+        margin: 2vw 0 0 88vw;
     }
 }
 
@@ -529,7 +529,7 @@ button {
     }
 
     span #burger {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -539,8 +539,8 @@ button {
     }
 
     span #burgen {
-        font-size: 0.9rem;
-        margin: 0 0 0 88vw;
+        font-size: 1.1rem;
+        margin: 2rem 0 0 87vw;
     }
 
     .navegacao-site nav {

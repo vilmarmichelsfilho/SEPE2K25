@@ -496,8 +496,8 @@ strong {
         text-decoration: none;
         text-align: end;
         cursor: pointer;
-        margin: 0 0 0 92vw;
-        font-size: 1.2rem;
+        margin: 2vw 0 0 90vw;
+        font-size: 1.3rem;
     }
 
     .navegacao-site {
@@ -631,7 +631,7 @@ strong {
     }
 
     span #burger {
-        margin: 0 0 0 90vw;
+        margin: 2vw 0 0 90vw;
     }
 }
 
@@ -647,7 +647,7 @@ strong {
     }
 
     span #burger {
-        font-size: 1rem;
+        font-size: 1.2rem;
     }
 }
 
@@ -657,8 +657,8 @@ strong {
     }
 
     span #burgen {
-        font-size: 0.9rem;
-        margin: 0 0 0 88vw;
+        font-size: 1.1rem;
+        margin: 2vw 0 0 87vw;
     }
 
     .navegacao-site nav {

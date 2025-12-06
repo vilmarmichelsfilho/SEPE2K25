@@ -422,6 +422,36 @@
         margin: 0 0 0 78vw;
     }
  }
+ @media (max-width: 576px){
+    .Lista img {
+        margin-top: 6vw;
+    }
+    .texto h2 {
+        font-size: 6vw;
+    }
+    .principais img {
+        margin-top: 7vw;
+        margin-bottom: 2vw;
+    }
+    section.causaslesoes h2 {
+        font-size: 5.5vw;
+    }
+    section.lesoescomun h2 {
+        font-size: 5.5vw;
+    }
+    section.causaslesoes ul li p {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+     section.lesoescomun ul li p {
+        font-size: 4vw;
+        line-height: 4vw;
+     }
+     section.texto p {
+        font-size: 4vw;
+        line-height: 4vw;
+    }
+ }
   @media (max-width: 500px){
     .navegacao-site ul{
         font-size: 0.9rem;

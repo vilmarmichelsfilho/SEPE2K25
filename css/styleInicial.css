@@ -312,15 +312,23 @@ header {
         margin: 14% 0 14% 0;
     }
     .sobreNosTextosP2 p {
-        font-size: 2vw;
+        font-size: 1rem;
+    }
+    .sobreNosTextosP2 h3{
+        font-size: 1.2rem
+    }
+    .melhoresTreinadores h2{
+        font-size: 1.1rem;
     }
     .melhoresTreinadores p {
-        font-size: 2vw;
+        font-size: 1rem;
     }
     .melhoresTreinadores ul li p {
-        font-size: 1vw;
+        font-size: 0.7rem}
+    .melhoresTreinadores ul li h3{
+        font-size: 0.9rem;
     }
-}
+    }
 @media (max-width: 768px){
     header{
         position: relative;
@@ -381,6 +389,18 @@ header {
     .navegacao-site ul{
         font-size: 0.8rem;
     }
+    .sobreNosTextosP2 p{
+        font-size: 0.8rem;
+    }
+    .melhoresTreinadores h2{
+        font-size: 0.9rem;
+    }
+    .melhoresTreinadores p{
+        font-size: 0.8rem;
+    }
+    .melhoresTreinadores ul li h3{
+        font-size: 0.7rem
+    }
  }
  @media (max-width: 400px){
     .navegacao-site ul{
@@ -401,4 +421,4 @@ header {
     .navegacao-site nav{
         margin: 0 0 0 70vw;
     }
- }
+}

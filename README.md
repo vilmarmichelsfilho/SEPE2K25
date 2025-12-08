@@ -109,5 +109,11 @@
                         Vilamr corrigiu os últimos erros do validador HTML e CSS de todas as páginas e também corriu alguns erros de responsividade. Igor fez o menu hamburguer e implementou em todas as páginas do site. Nós mudamos a navegação do header e verificamos se havia algum erro textual nas redes sociais. Igor corrigiu erros apontados pelo professor Kennedy, como erro semântico de hierarquia de títulos e substituição da tag i pelo span como estratégia mais moderna.
                     </p>
                 </li>
+                        <li>
+                    <h3><strong>Dia 05/12/2025 a 08/12/2025</strong></h3>
+                    <p>
+                                Igor terminou a responsividade do site, Vilmar ficou de terminar a página de treinos. Enviamos a correção dos erros apontados na avaliação do professor Kennedy, no e-mail do professor para ser realizada a reavaliação.
+                    </p>
+                </li>
             </ul>
         </section>
